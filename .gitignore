@@ -1,0 +1,11 @@
+# Documento médico detallado — NO publicar (privacidad de Daira)
+dieta-daira.md
+
+# Artefactos de desarrollo
+preview-plan.png
+*.log
+.DS_Store
+Thumbs.db
+
+# Artefactos de la skill impeccable
+.impeccable/
