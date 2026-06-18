@@ -1,5 +1,5 @@
 /* Service worker — caché para uso sin conexión (todo es de mismo origen, incluidas las fuentes). */
-const VERSION = "daira-v2";
+const VERSION = "daira-v3";
 const CORE = [
   "./",
   "./index.html",
