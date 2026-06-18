@@ -621,6 +621,13 @@ body.hide-done .row.is-done{display:none}
 
   /* ---------- service worker ---------- */
   if('serviceWorker' in navigator && location.protocol.indexOf('http')===0){
+    // si ya había un SW controlando, recarga una vez cuando entre una versión nueva
+    if(navigator.serviceWorker.controller){
+      var __reloading=false;
+      navigator.serviceWorker.addEventListener('controllerchange',function(){
+        if(__reloading)return;__reloading=true;window.location.reload();
+      });
+    }
     window.addEventListener('load',function(){
       navigator.serviceWorker.register('service-worker.js').catch(function(){});
     });
