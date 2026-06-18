@@ -935,17 +935,17 @@
         },
         {
           "slot": "Snacks",
-          "titulo": "Papaya, yogur y chocolate",
-          "tip": "Papaya ayuda a la digestión.",
+          "titulo": "Pera con yogur y chocolate",
+          "tip": "La pera es suave y con fibra (pectina): ayuda a la digestión sin irritar.",
           "items": [
             {
-              "nombre": "Papaya",
-              "cantidad": "150 g",
-              "kcal": 64,
-              "p": 1,
-              "c": 16,
+              "nombre": "Pera",
+              "cantidad": "115 g",
+              "kcal": 66,
+              "p": 0,
+              "c": 17,
               "f": 0,
-              "fib": 3
+              "fib": 4
             },
             {
               "nombre": "Yogur natural sin azúcar",
@@ -976,20 +976,20 @@
             }
           ],
           "totales": {
-            "kcal": 296,
-            "p": 10,
-            "c": 32,
+            "kcal": 298,
+            "p": 9,
+            "c": 33,
             "f": 14,
-            "fib": 6
+            "fib": 7
           }
         }
       ],
       "totales": {
-        "kcal": 1566,
-        "p": 110,
-        "c": 160,
+        "kcal": 1568,
+        "p": 109,
+        "c": 161,
         "f": 54,
-        "fib": 34
+        "fib": 35
       }
     },
     {
@@ -1884,6 +1884,13 @@
           "_g": 185
         },
         {
+          "id": "Ajo",
+          "nombre": "Ajo",
+          "comprar": "1 cabeza",
+          "nota": "para la salsa verde (1 diente asado)",
+          "_g": 0
+        },
+        {
           "id": "brocoli",
           "nombre": "Brócoli",
           "comprar": "150 g",
@@ -1910,6 +1917,20 @@
           "comprar": "130 g",
           "nota": "",
           "_g": 120
+        },
+        {
+          "id": "Chile serrano",
+          "nombre": "Chile serrano",
+          "comprar": "2 pzas",
+          "nota": "para la salsa verde (sin semillas)",
+          "_g": 0
+        },
+        {
+          "id": "Cilantro",
+          "nombre": "Cilantro",
+          "comprar": "1 manojo",
+          "nota": "para la salsa verde",
+          "_g": 0
         },
         {
           "id": "espinaca",
@@ -1968,18 +1989,18 @@
           "_g": 250
         },
         {
-          "id": "papaya",
-          "nombre": "Papaya",
-          "comprar": "160 g",
-          "nota": "",
-          "_g": 150
-        },
-        {
           "id": "pepino",
           "nombre": "Pepino",
           "comprar": "280 g",
           "nota": "",
           "_g": 260
+        },
+        {
+          "id": "pera",
+          "nombre": "Pera",
+          "comprar": "130 g",
+          "nota": "",
+          "_g": 115
         },
         {
           "id": "pimiento",
@@ -1994,6 +2015,13 @@
           "comprar": "150 g",
           "nota": "",
           "_g": 140
+        },
+        {
+          "id": "Tomate verde (tomatillo)",
+          "nombre": "Tomate verde (tomatillo)",
+          "comprar": "500 g",
+          "nota": "para la salsa verde casera (ver receta)",
+          "_g": 0
         },
         {
           "id": "zanahoria",
@@ -2116,13 +2144,6 @@
           "comprar": "40 g",
           "nota": "",
           "_g": 32
-        },
-        {
-          "id": "salsa_v",
-          "nombre": "Salsa verde",
-          "comprar": "250 g",
-          "nota": "",
-          "_g": 230
         }
       ]
     }
@@ -2159,6 +2180,53 @@
     {
       "t": "📋 Pendiente médico",
       "d": "Hazte análisis: triglicéridos, biometría (anemia) y perfil tiroideo. Idealmente valida este plan con un nutriólogo."
+    }
+  ],
+  "recetas": [
+    {
+      "nombre": "Salsa verde asada (sin cebolla)",
+      "rendimiento": "~340 g (1 lote)",
+      "conservacion": "3-4 días en refri; haz 2 lotes chicos o congela la mitad",
+      "usa": "los 7 días (~230 g a la semana)",
+      "ingredientes": [
+        {
+          "nombre": "Tomate verde (tomatillo), sin cáscara y lavado",
+          "cantidad": "400 g"
+        },
+        {
+          "nombre": "Chile serrano (asado, SIN semillas ni venas)",
+          "cantidad": "1 pza (~12 g)"
+        },
+        {
+          "nombre": "Ajo (asado y luego pelado)",
+          "cantidad": "1 diente (~5 g)"
+        },
+        {
+          "nombre": "Cilantro fresco (hojas y tallos tiernos)",
+          "cantidad": "20 g (1/3 taza)"
+        },
+        {
+          "nombre": "Sal",
+          "cantidad": "4 g (3/4 cdita)"
+        },
+        {
+          "nombre": "Azúcar (para cortar la acidez)",
+          "cantidad": "1 pizca"
+        },
+        {
+          "nombre": "Agua (para ajustar al licuar)",
+          "cantidad": "30-50 ml"
+        }
+      ],
+      "pasos": [
+        "Calienta un comal a fuego medio y pon los tomatillos, el chile serrano y el ajo sin pelar.",
+        "Tatema 8-10 min volteando, hasta que la piel de los tomatillos tenga manchas negras y estén suaves. Saca el ajo y el chile antes si se queman.",
+        "Deja enfriar un poco. Pela el ajo. Al chile córtale el rabo y ábrelo para quitar TODAS las semillas y venas (eso baja el picor para tu gastritis).",
+        "Licúa los tomatillos con sus jugos junto con el ajo, el chile (solo la pulpa), el cilantro, la sal y la pizca de azúcar. Agrega agua poco a poco solo si la quieres más fluida.",
+        "Prueba y ajusta de sal. Para una versión aún más suave, licúa 1/4 de aguacate (te gusta y baja la acidez).",
+        "Pásala a un frasco limpio con tapa y refrigérala."
+      ],
+      "nota": "Adaptada para gastritis: tomatillo TATEMADO (no crudo), 1 solo chile SIN semillas, ajo ASADO y SIN cebolla. No la uses en ayunas, siempre con comida. Fuentes: Pati Jinich y Directo al Paladar México."
     }
   ]
 }

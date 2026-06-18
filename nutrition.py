@@ -89,6 +89,7 @@ F = {
     "papaya":       dict(nom="Papaya",                  kcal=43,  p=0.5,  c=11.0,f=0.3, fib=1.7, cat="Frutas/Verduras", shop=("asis",)),
     "guayaba":      dict(nom="Guayaba",                 kcal=68,  p=2.6,  c=14.0,f=0.95,fib=5.0, cat="Frutas/Verduras", shop=("asis",)),
     "mango":        dict(nom="Mango",                   kcal=60,  p=0.8,  c=15.0,f=0.4, fib=1.6, cat="Frutas/Verduras", shop=("asis",)),
+    "pera":         dict(nom="Pera",                    kcal=57,  p=0.4,  c=15.0,f=0.1, fib=3.1, cat="Frutas/Verduras", shop=("asis",)),
 }
 
 TARGETS = dict(kcal=1500, p=115, f=50, c=150, fib=28, water_l=2.2, steps=8000)
@@ -156,9 +157,9 @@ PLAN = [
         "Cena":     ("Huevos con espinaca y frijol",
                      "Hierro (espinaca + frijol) con vitamina C del limón.",
                      [("huevo", 50), ("clara", 66), ("espinaca", 80), ("frijol", 50), ("tortilla", 30)]),
-        "Snacks":   ("Papaya, yogur y chocolate",
-                     "Papaya ayuda a la digestión.",
-                     [("papaya", 150), ("yogur", 150), ("choco", 14), ("almendra", 10)]),
+        "Snacks":   ("Pera con yogur y chocolate",
+                     "La pera es suave y con fibra (pectina): ayuda a la digestión sin irritar.",
+                     [("pera", 115), ("yogur", 150), ("choco", 14), ("almendra", 10)]),
     },
     # ---------------- VIERNES ----------------
     {
@@ -302,6 +303,14 @@ CAT_LABEL = {
     "Despensa": "🫙 Despensa y básicos",
 }
 
+# Ingredientes fijos para la salsa verde casera (sustituye a la salsa comprada)
+EXTRA_SHOPPING = [
+    {"nombre": "Tomate verde (tomatillo)", "comprar": "500 g", "nota": "para la salsa verde casera (ver receta)", "cat": "Frutas/Verduras"},
+    {"nombre": "Chile serrano", "comprar": "2 pzas", "nota": "para la salsa verde (sin semillas)", "cat": "Frutas/Verduras"},
+    {"nombre": "Ajo", "comprar": "1 cabeza", "nota": "para la salsa verde (1 diente asado)", "cat": "Frutas/Verduras"},
+    {"nombre": "Cilantro", "comprar": "1 manojo", "nota": "para la salsa verde", "cat": "Frutas/Verduras"},
+]
+
 
 def roundup(x, step):
     return int(math.ceil(x / step) * step)
@@ -310,6 +319,8 @@ def roundup(x, step):
 def build_shopping(weekly_used):
     cats = {c: [] for c in CAT_ORDER}
     for fid, grams in weekly_used.items():
+        if fid == "salsa_v":
+            continue  # se hace casera (ver receta); sus ingredientes van en EXTRA_SHOPPING
         fo = F[fid]
         rule = fo["shop"]
         kind = rule[0]
@@ -354,6 +365,10 @@ def build_shopping(weekly_used):
             "nota": note,
             "_g": round(grams),
         })
+
+    for ex in EXTRA_SHOPPING:
+        cats[ex["cat"]].append({"id": ex["nombre"], "nombre": ex["nombre"],
+                                "comprar": ex["comprar"], "nota": ex["nota"], "_g": 0})
 
     out = []
     for c in CAT_ORDER:
@@ -417,6 +432,7 @@ def main():
         "dias": days,
         "compras": shopping,
         "guia": GUIA,
+        "recetas": RECETAS,
     }
     out_json = os.path.join(os.path.dirname(__file__), "plan_data.json")
     out_js = os.path.join(os.path.dirname(__file__), "plan_data.js")
@@ -430,6 +446,35 @@ def main():
     print(f"Escrito: {out_js}")
     return ok
 
+
+# Recetas base que se muestran en la app (se llenan tras la investigación)
+# cada receta: nombre, rendimiento, conservacion, usa, ingredientes[{nombre,cantidad}], pasos[], nota
+RECETAS = [
+    {
+        "nombre": "Salsa verde asada (sin cebolla)",
+        "rendimiento": "~340 g (1 lote)",
+        "conservacion": "3-4 días en refri; haz 2 lotes chicos o congela la mitad",
+        "usa": "los 7 días (~230 g a la semana)",
+        "ingredientes": [
+            {"nombre": "Tomate verde (tomatillo), sin cáscara y lavado", "cantidad": "400 g"},
+            {"nombre": "Chile serrano (asado, SIN semillas ni venas)", "cantidad": "1 pza (~12 g)"},
+            {"nombre": "Ajo (asado y luego pelado)", "cantidad": "1 diente (~5 g)"},
+            {"nombre": "Cilantro fresco (hojas y tallos tiernos)", "cantidad": "20 g (1/3 taza)"},
+            {"nombre": "Sal", "cantidad": "4 g (3/4 cdita)"},
+            {"nombre": "Azúcar (para cortar la acidez)", "cantidad": "1 pizca"},
+            {"nombre": "Agua (para ajustar al licuar)", "cantidad": "30-50 ml"},
+        ],
+        "pasos": [
+            "Calienta un comal a fuego medio y pon los tomatillos, el chile serrano y el ajo sin pelar.",
+            "Tatema 8-10 min volteando, hasta que la piel de los tomatillos tenga manchas negras y estén suaves. Saca el ajo y el chile antes si se queman.",
+            "Deja enfriar un poco. Pela el ajo. Al chile córtale el rabo y ábrelo para quitar TODAS las semillas y venas (eso baja el picor para tu gastritis).",
+            "Licúa los tomatillos con sus jugos junto con el ajo, el chile (solo la pulpa), el cilantro, la sal y la pizca de azúcar. Agrega agua poco a poco solo si la quieres más fluida.",
+            "Prueba y ajusta de sal. Para una versión aún más suave, licúa 1/4 de aguacate (te gusta y baja la acidez).",
+            "Pásala a un frasco limpio con tapa y refrigérala.",
+        ],
+        "nota": "Adaptada para gastritis: tomatillo TATEMADO (no crudo), 1 solo chile SIN semillas, ajo ASADO y SIN cebolla. No la uses en ayunas, siempre con comida. Fuentes: Pati Jinich y Directo al Paladar México.",
+    },
+]
 
 # Consejos / guía que también se muestran en la app
 GUIA = [

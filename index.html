@@ -233,6 +233,23 @@ body.hide-done .row.is-done{display:none}
   border-radius:var(--r-md);padding:13px 15px;margin:18px 0 10px}
 .disclaimer b{color:var(--ink-soft)}
 
+/* ---------- Recetas base ---------- */
+.recetas-head{font-size:1.15rem;font-family:var(--ff-display);font-weight:600;color:var(--primary-ink);margin:24px 2px 12px}
+.receta{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-sm);padding:15px 16px;margin-bottom:12px}
+.receta__name{font-size:1.12rem;font-family:var(--ff-display);font-weight:600;color:var(--ink)}
+.receta__meta{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.receta__meta span{font-size:.73rem;color:var(--ink-soft);background:var(--surface-2);border:1px solid var(--line-soft);border-radius:var(--r-pill);padding:3px 10px}
+.receta__days{font-size:.78rem;color:var(--ink-faint);margin-top:8px}
+.receta__sub{font-size:.71rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--green-ink);margin:14px 0 7px}
+.receta__ing{list-style:none;display:grid;gap:0}
+.receta__ing li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.89rem;color:var(--ink);border-bottom:1px solid var(--line-soft);padding:6px 0}
+.receta__ing li:last-child{border-bottom:none}
+.receta__ing li b{color:var(--ink-faint);font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.receta__steps{margin:0;padding-left:20px;display:grid;gap:7px}
+.receta__steps li{font-size:.86rem;color:var(--ink-soft);line-height:1.45;padding-left:3px}
+.receta__steps li::marker{color:var(--primary);font-weight:700}
+.receta__note{font-size:.83rem;color:var(--ink-soft);line-height:1.5;background:var(--green-tint);border-radius:var(--r-sm);padding:10px 12px;margin-top:13px}
+
 /* ---------- Bottom nav ---------- */
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:var(--z-nav);
   height:calc(var(--tab-h) + var(--safe-bottom));padding-bottom:var(--safe-bottom);
@@ -331,6 +348,7 @@ body.hide-done .row.is-done{display:none}
       <div class="target-grid" id="targetGrid"></div>
     </div>
     <div class="guia-list" id="guiaList"></div>
+    <div id="recetasWrap"></div>
     <div class="disclaimer" id="disclaimer"></div>
   </section>
 </main>
@@ -535,7 +553,28 @@ body.hide-done .row.is-done{display:none}
     var cells=[['~'+T.kcal,'kcal'],[T.p+' g','Proteína'],[T.c+' g','Carbos'],[T.f+' g','Grasa'],[T.fib+' g','Fibra'],[T.water_l+' L','Agua'],[(T.steps/1000)+'k','Pasos']];
     g.innerHTML=cells.map(function(c){return '<div class="tcell"><div class="v">'+c[0]+'</div><div class="k">'+c[1]+'</div></div>';}).join('');
     $('#guiaList').innerHTML=D.guia.map(function(x){return '<div class="gcard"><h4>'+x.t+'</h4><p>'+x.d+'</p></div>';}).join('');
+    renderRecetas();
     $('#disclaimer').innerHTML='<b>Nota:</b> '+D.meta.nota+' Este plan es una guía y no sustituye a un médico o nutriólogo; valídalo con un profesional, sobre todo por tus triglicéridos, la isotretinoína y la gastritis/colitis.';
+  }
+
+  function renderRecetas(){
+    var host=$('#recetasWrap');if(!host)return;
+    if(!D.recetas||!D.recetas.length){host.innerHTML='';return;}
+    var html='<div class="recetas-head">🥄 Recetas base</div>';
+    html+=D.recetas.map(function(r){
+      var meta=[];
+      if(r.rendimiento)meta.push('<span>🥣 Rinde '+r.rendimiento+'</span>');
+      if(r.conservacion)meta.push('<span>🧊 '+r.conservacion+'</span>');
+      var ing=(r.ingredientes||[]).map(function(i){return '<li><span>'+i.nombre+'</span><b>'+i.cantidad+'</b></li>';}).join('');
+      var steps=(r.pasos||[]).map(function(p){return '<li>'+p+'</li>';}).join('');
+      return '<div class="receta"><div class="receta__name">'+r.nombre+'</div>'+
+        (meta.length?'<div class="receta__meta">'+meta.join('')+'</div>':'')+
+        (r.usa?'<div class="receta__days">📅 Se usa en: '+r.usa+'</div>':'')+
+        '<div class="receta__sub">Ingredientes</div><ul class="receta__ing">'+ing+'</ul>'+
+        '<div class="receta__sub">Preparación</div><ol class="receta__steps">'+steps+'</ol>'+
+        (r.nota?'<p class="receta__note">💡 '+r.nota+'</p>':'')+'</div>';
+    }).join('');
+    host.innerHTML=html;
   }
 
   /* ---------- nav ---------- */

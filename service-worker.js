@@ -1,7 +1,8 @@
 /* Service worker — offline + actualización confiable.
-   HTML = network-first (siempre fresco con internet, caché como respaldo offline).
-   Resto de assets = cache-first. */
-const VERSION = "daira-v4";
+   Contenido que cambia (HTML, datos, manifest) = network-first (siempre fresco con internet).
+   Assets estáticos (fuentes, iconos) = cache-first (rápidos).
+   Caché siempre como respaldo sin conexión. */
+const VERSION = "daira-v5";
 const CORE = [
   "./",
   "./index.html",
@@ -38,39 +39,42 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  const isHTML =
-    req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html");
+  const isStatic = url.pathname.includes("/fonts/") || url.pathname.includes("/icons/");
 
-  if (isHTML) {
-    // network-first: trae el HTML más reciente; si no hay red, usa el caché
+  if (isStatic) {
+    // cache-first para fuentes e iconos (no cambian casi nunca)
     event.respondWith(
-      fetch(req)
-        .then((res) => {
-          if (res && res.ok) {
-            const copy = res.clone();
-            caches.open(VERSION).then((c) => c.put("./index.html", copy)).catch(() => {});
-          }
-          return res;
-        })
-        .catch(() => caches.match("./index.html").then((c) => c || caches.match("./")))
+      caches.match(req).then(
+        (cached) =>
+          cached ||
+          fetch(req)
+            .then((res) => {
+              if (res && res.ok && res.status === 200) {
+                const copy = res.clone();
+                caches.open(VERSION).then((c) => c.put(req, copy)).catch(() => {});
+              }
+              return res;
+            })
+            .catch(() => undefined)
+      )
     );
     return;
   }
 
-  // cache-first para fuentes, iconos, datos
+  // network-first para HTML, plan_data.js y manifest (siempre la versión más reciente)
+  const isHTML =
+    req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html");
   event.respondWith(
-    caches.match(req).then(
-      (cached) =>
-        cached ||
-        fetch(req)
-          .then((res) => {
-            if (res && res.ok && res.status === 200) {
-              const copy = res.clone();
-              caches.open(VERSION).then((c) => c.put(req, copy)).catch(() => {});
-            }
-            return res;
-          })
-          .catch(() => undefined)
-    )
+    fetch(req)
+      .then((res) => {
+        if (res && res.ok) {
+          const copy = res.clone();
+          caches.open(VERSION).then((c) => c.put(isHTML ? "./index.html" : req, copy)).catch(() => {});
+        }
+        return res;
+      })
+      .catch(() =>
+        caches.match(req).then((c) => c || (isHTML ? caches.match("./index.html") : caches.match("./")))
+      )
   );
 });

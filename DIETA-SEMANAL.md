@@ -134,7 +134,7 @@ _💡 Fresa: dulce natural y mucha agua._
 ---
 
 ## Jueves
-**1566 kcal** · P 110 g · C 160 g · G 54 g · Fibra 34 g
+**1568 kcal** · P 109 g · C 161 g · G 54 g · Fibra 35 g
 
 
 ### Desayuno — Licuado proteico + huevo cocido  ·  496 kcal (P 29 / C 54 / G 19)
@@ -164,13 +164,13 @@ _💡 Sin cebolla; sazona con ajo, hierbas y poco chile._
   
 _💡 Hierro (espinaca + frijol) con vitamina C del limón._
 
-### Snacks — Papaya, yogur y chocolate  ·  296 kcal (P 10 / C 32 / G 14)
-- Papaya: **150 g**
+### Snacks — Pera con yogur y chocolate  ·  298 kcal (P 9 / C 33 / G 14)
+- Pera: **115 g**
 - Yogur natural sin azúcar: **150 g**
 - Chocolate 70% cacao: **14 g**
 - Almendras: **10 g**
   
-_💡 Papaya ayuda a la digestión._
+_💡 La pera es suave y con fibra (pectina): ayuda a la digestión sin irritar._
 
 ---
 
@@ -326,10 +326,13 @@ _💡 Cierra la semana con tu gustito._
 
 ## 🥑 Frutas y verduras
 - [ ] Aguacate — **200 g**
+- [ ] Ajo — **1 cabeza**  _(para la salsa verde (1 diente asado))_
 - [ ] Brócoli — **150 g**
 - [ ] Calabacita — **350 g**
 - [ ] Champiñón — **90 g**
 - [ ] Chayote — **130 g**
+- [ ] Chile serrano — **2 pzas**  _(para la salsa verde (sin semillas))_
+- [ ] Cilantro — **1 manojo**  _(para la salsa verde)_
 - [ ] Espinaca — **200 g**
 - [ ] Fresa — **390 g**
 - [ ] Guayaba — **110 g**
@@ -338,10 +341,11 @@ _💡 Cierra la semana con tu gustito._
 - [ ] Mango — **170 g**
 - [ ] Manzana — **370 g**
 - [ ] Nopal (cocido) — **270 g**
-- [ ] Papaya — **160 g**
 - [ ] Pepino — **280 g**
+- [ ] Pera — **130 g**
 - [ ] Pimiento morrón — **130 g**
 - [ ] Plátano — **150 g**
+- [ ] Tomate verde (tomatillo) — **500 g**  _(para la salsa verde casera (ver receta))_
 - [ ] Zanahoria — **290 g**
 
 ## 🌽 Cereales y tortillas
@@ -362,7 +366,6 @@ _💡 Cierra la semana con tu gustito._
 - [ ] Frijol refrito (poco aceite) — **90 g**
 - [ ] Maíz pozolero (cocido) — **120 g**
 - [ ] Nuez — **40 g**
-- [ ] Salsa verde — **250 g**
 
 
 ---
