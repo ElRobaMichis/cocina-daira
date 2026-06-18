@@ -1,5 +1,7 @@
-/* Service worker — caché para uso sin conexión (todo es de mismo origen, incluidas las fuentes). */
-const VERSION = "daira-v3";
+/* Service worker — offline + actualización confiable.
+   HTML = network-first (siempre fresco con internet, caché como respaldo offline).
+   Resto de assets = cache-first. */
+const VERSION = "daira-v4";
 const CORE = [
   "./",
   "./index.html",
@@ -34,9 +36,28 @@ self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
-  if (url.origin !== self.location.origin) return; // todo lo necesario es local
+  if (url.origin !== self.location.origin) return;
 
-  // cache-first; al fallar la red, respaldo a index.html (navegación offline)
+  const isHTML =
+    req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html");
+
+  if (isHTML) {
+    // network-first: trae el HTML más reciente; si no hay red, usa el caché
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(VERSION).then((c) => c.put("./index.html", copy)).catch(() => {});
+          }
+          return res;
+        })
+        .catch(() => caches.match("./index.html").then((c) => c || caches.match("./")))
+    );
+    return;
+  }
+
+  // cache-first para fuentes, iconos, datos
   event.respondWith(
     caches.match(req).then(
       (cached) =>
@@ -49,7 +70,7 @@ self.addEventListener("fetch", (event) => {
             }
             return res;
           })
-          .catch(() => caches.match("./index.html"))
+          .catch(() => undefined)
     )
   );
 });
