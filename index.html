@@ -175,6 +175,22 @@ main{max-width:var(--maxw);margin:0 auto;padding:0 14px}
   background:var(--surface-2);border-radius:var(--r-sm);font-size:.78rem;color:var(--ink-soft)}
 .meal--comida .swap b{color:var(--primary-ink)}
 
+/* ---------- meal picker (dropdown) ---------- */
+.picker-wrap{margin:14px 0}
+.picker-label{display:block;font-size:.82rem;font-weight:600;color:var(--ink-soft);margin:0 2px 8px}
+.select-shell{position:relative}
+.select-shell select{appearance:none;-webkit-appearance:none;width:100%;font-family:inherit;font-size:1rem;font-weight:600;
+  color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);box-shadow:var(--shadow-sm);
+  padding:14px 46px 14px 15px;cursor:pointer;line-height:1.3}
+.select-shell select:focus-visible{outline:2.5px solid var(--primary);outline-offset:2px}
+.select-chev{position:absolute;right:15px;top:50%;transform:translateY(-50%);width:20px;height:20px;
+  fill:none;stroke:var(--primary);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.slotchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;padding-top:13px;border-top:1px dashed var(--line)}
+.slotchip{font-size:.76rem;font-weight:600;color:var(--ink-soft);background:var(--surface-2);border:1px solid var(--line);
+  padding:6px 11px;border-radius:var(--r-pill);transition:background .15s,color .15s,border-color .15s}
+.slotchip:active{transform:scale(.96)}
+.slotchip.is-on{background:var(--primary);border-color:var(--primary);color:#fff}
+
 /* ---------- Shopping ---------- */
 .view-head{padding:16px 2px 4px}
 .view-head h2{font-size:1.55rem;font-weight:700;color:var(--ink)}
@@ -249,6 +265,9 @@ body.hide-done .row.is-done{display:none}
 .receta__steps li{font-size:.86rem;color:var(--ink-soft);line-height:1.45;padding-left:3px}
 .receta__steps li::marker{color:var(--primary);font-weight:700}
 .receta__note{font-size:.83rem;color:var(--ink-soft);line-height:1.5;background:var(--green-tint);border-radius:var(--r-sm);padding:10px 12px;margin-top:13px}
+/* receta dentro de la tarjeta de comida */
+.receta--inline{background:transparent;border:0;box-shadow:none;border-radius:0;padding:2px 16px 14px;margin:0}
+.receta--inline .receta__sub{margin-top:14px}
 
 /* ---------- Bottom nav ---------- */
 .tabbar{position:fixed;left:0;right:0;bottom:0;z-index:var(--z-nav);
@@ -315,9 +334,15 @@ body.hide-done .row.is-done{display:none}
 <main>
   <!-- ============ PLAN ============ -->
   <section id="view-plan" class="view is-active" aria-label="Plan del día">
-    <div class="dayrail-wrap"><div class="dayrail" id="dayrail" role="group" aria-label="Elegir día de la semana"></div></div>
-    <div id="summary"></div>
-    <div class="meals" id="meals"></div>
+    <div class="picker-wrap">
+      <label class="picker-label" for="mealPicker">🍽️ Elige una comida</label>
+      <div class="select-shell">
+        <select id="mealPicker" aria-label="Elegir comida"></select>
+        <svg class="select-chev" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+    <div id="dayctx"></div>
+    <div id="mealDetail"></div>
   </section>
 
   <!-- ============ COMPRAS ============ -->
@@ -376,11 +401,12 @@ body.hide-done .row.is-done{display:none}
 
   /* ---------- estado ---------- */
   var KEY='daira.state.v1';
-  var state={day:0,tab:'plan',checked:{},water:{}};
+  var state={day:0,slot:0,tab:'plan',checked:{},water:{}};
   try{var s=JSON.parse(localStorage.getItem(KEY));if(s)state=Object.assign(state,s);}catch(e){}
   var todayIdx=( (new Date().getDay())+6)%7;
-  if(state._firstday===undefined){state.day=todayIdx;state._firstday=true;}
+  if(state._firstday===undefined){state.day=todayIdx;state.slot=(function(){var h=new Date().getHours();return h<11?0:h<16?1:2;})();state._firstday=true;}
   if(typeof state.day!=='number'||state.day<0||state.day>=D.dias.length)state.day=todayIdx;
+  if(typeof state.slot!=='number'||state.slot<0||state.slot>3)state.slot=0;
   if(!TABS.some(function(t){return t.id===state.tab;}))state.tab='plan';
   function save(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
 
@@ -390,53 +416,47 @@ body.hide-done .row.is-done{display:none}
   var toastT;
   function toast(msg){var t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('show');},1800);}
 
-  /* ---------- day rail ---------- */
+  /* ---------- selección por comida (dropdown) ---------- */
   var ABBR=['Lun','Mar','Mié','Jue','Vie','Sáb','Dom'];
-  var dayBtns=[];
-  function buildRail(){
-    var r=$('#dayrail');r.innerHTML='';dayBtns=[];
-    D.dias.forEach(function(d,i){
-      var b=el('button','day'+(i===state.day?' is-on':'')+(i===todayIdx?' is-today':''));
-      b.type='button';
-      b.setAttribute('aria-pressed',i===state.day?'true':'false');
-      b.setAttribute('tabindex',i===state.day?'0':'-1');
-      b.setAttribute('aria-label',d.nombre+(i===todayIdx?' (hoy)':''));
-      b.innerHTML='<div class="dn">'+ABBR[i]+'</div><div class="di">'+d.nombre.charAt(0)+'</div>';
-      b.onclick=function(){setDay(i);};
-      b.onkeydown=function(e){
-        var n=null,L=D.dias.length;
-        if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%L;
-        else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i-1+L)%L;
-        else if(e.key==='Home')n=0; else if(e.key==='End')n=L-1;
-        if(n!==null){e.preventDefault();setDay(n,true);}
-      };
-      dayBtns.push(b);r.appendChild(b);
+  var SLOTS=['Desayuno','Comida','Cena','Snacks'];
+  var SLOT_GROUP={Desayuno:'Desayunos',Comida:'Comidas',Cena:'Cenas',Snacks:'Snacks y antojos'};
+  function buildPicker(){
+    var sel=$('#mealPicker');if(!sel)return;sel.innerHTML='';
+    SLOTS.forEach(function(slotName,si){
+      var og=document.createElement('optgroup');og.label=SLOT_GROUP[slotName];
+      D.dias.forEach(function(d,di){
+        var meal=d.comidas.filter(function(m){return m.slot===slotName;})[0];
+        if(!meal)return;
+        var o=document.createElement('option');
+        o.value=di+'-'+si;o.textContent=ABBR[di]+' · '+meal.titulo;
+        og.appendChild(o);
+      });
+      sel.appendChild(og);
     });
-    var on=dayBtns[state.day];if(on&&on.scrollIntoView)on.scrollIntoView({inline:'center',block:'nearest'});
+    sel.onchange=function(){var p=sel.value.split('-');setMeal(+p[0],+p[1]);};
   }
-  function setDay(i,focus){
-    state.day=i;save();
-    dayBtns.forEach(function(b,idx){
-      var on=idx===i;
-      b.classList.toggle('is-on',on);
-      b.setAttribute('aria-pressed',on?'true':'false');
-      b.setAttribute('tabindex',on?'0':'-1');
-    });
-    var cur=dayBtns[i];
-    if(cur&&cur.scrollIntoView)cur.scrollIntoView({inline:'center',block:'nearest'});
-    if(focus&&cur)cur.focus();
-    renderDay();
+  function setMeal(day,slot){
+    day=Math.max(0,Math.min(D.dias.length-1,day));
+    slot=Math.max(0,Math.min(3,slot));
+    state.day=day;state.slot=slot;save();
+    var sel=$('#mealPicker');if(sel)sel.value=day+'-'+slot;
+    renderDayCtx();renderMealDetail();
   }
 
   /* ---------- summary + meals ---------- */
   var SLOT_ICON={Desayuno:'🌅',Comida:'🍽️',Cena:'🌙',Snacks:'🍓'};
   var SLOT_LABEL={Desayuno:'Desayuno',Comida:'Comida',Cena:'Cena',Snacks:'Snacks y antojo'};
-  function renderDay(){
+  function renderDayCtx(){
     var d=D.dias[state.day],t=d.totales;
-    // summary
+    var chips=SLOTS.map(function(s,si){
+      var meal=d.comidas.filter(function(m){return m.slot===s;})[0];
+      if(!meal)return '';
+      return '<button class="slotchip'+(si===state.slot?' is-on':'')+'" data-slot="'+si+'">'+
+        (SLOT_ICON[s]||'')+' '+(s==='Snacks'?'Snack':s)+'</button>';
+    }).join('');
     var sm=el('div','summary');
     sm.innerHTML=
-      '<div class="summary__top"><div class="kcal-big">'+t.kcal+' <small>kcal</small></div>'+
+      '<div class="summary__top"><div class="kcal-big">'+t.kcal+' <small>kcal · '+d.nombre+'</small></div>'+
       '<div class="kcal-meta">meta ~'+T.kcal+' kcal<br>proteína <b>'+t.p+' g</b></div></div>'+
       '<div class="bars">'+
         barRow('Proteína','b-p',t.p,T.p,'g')+
@@ -444,34 +464,35 @@ body.hide-done .row.is-done{display:none}
         barRow('Grasa','b-f',t.f,T.f,'g')+
         barRow('Fibra','b-fib',t.fib,T.fib,'g')+
       '</div>'+
+      '<div class="slotchips">'+chips+'</div>'+
       '<div class="habits"><div class="water"><span class="water__label">'+DROP+' Agua</span><div class="drops" id="drops"></div></div>'+
       '<span class="steps-chip">👟 meta '+ (T.steps/1000) +'k pasos</span></div>';
-    var host=$('#summary');host.innerHTML='';host.appendChild(sm);
-    // animate bars after paint
+    var host=$('#dayctx');host.innerHTML='';host.appendChild(sm);
+    sm.querySelectorAll('.slotchip').forEach(function(b){
+      b.onclick=function(){setMeal(state.day,+b.getAttribute('data-slot'));};
+    });
     requestAnimationFrame(function(){requestAnimationFrame(function(){
       [['p',T.p],['c',T.c],['f',T.f],['fib',T.fib]].forEach(function(x,idx){
         var f=sm.querySelectorAll('.bar__fill')[idx];if(f)f.style.transform='scaleX('+(pct(t[x[0]],x[1])/100)+')';
       });
     });});
     buildDrops();
-    // meals
-    var m=$('#meals');m.innerHTML='';
-    d.comidas.forEach(function(meal,idx){
-      m.appendChild(mealCard(meal,idx));
-    });
   }
   function barRow(lab,cls,v,t,u){
     return '<div class="bar '+cls+'"><span class="bar__lab">'+lab+'</span>'+
       '<span class="bar__track"><span class="bar__fill"></span></span>'+
       '<span class="bar__val"><b>'+v+'</b>/'+t+u+'</span></div>';
   }
-  function mealCard(meal,idx){
-    var slot=meal.slot;
-    var c=el('article','meal meal--'+slot.toLowerCase());c.style.setProperty('--i',idx);
+  function renderMealDetail(){
+    var d=D.dias[state.day];
+    var meal=d.comidas.filter(function(m){return m.slot===SLOTS[state.slot];})[0];
+    var host=$('#mealDetail');host.innerHTML='';
+    if(!meal)return;
+    var slot=meal.slot,tt=meal.totales;
+    var c=el('article','meal meal--'+slot.toLowerCase());
     var items=meal.items.map(function(it){
       return '<li class="item"><span class="item__name">'+it.nombre+'</span><span class="item__qty">'+it.cantidad+'</span></li>';
     }).join('');
-    var tt=meal.totales;
     var chips='<div class="chips">'+
       '<span class="chip chip--p">P '+tt.p+'</span>'+
       '<span class="chip chip--c">C '+tt.c+'</span>'+
@@ -480,13 +501,26 @@ body.hide-done .row.is-done{display:none}
     var swap = slot==='Comida'
       ? '<div class="swap">🍴 <div>Si comes fuera con tu novio, cambia esta comida por la opción de <b>“comer fuera”</b> (ver Guía): tacos de maíz, pozole, fajitas o algo a la plancha.</div></div>'
       : '';
+    var r=meal.receta,receta;
+    if(r&&r.pasos&&r.pasos.length){
+      var meta=[];
+      if(r.tiempo_min)meta.push('<span>⏱️ '+r.tiempo_min+' min</span>');
+      if(r.dificultad)meta.push('<span>👩‍🍳 '+r.dificultad+'</span>');
+      var steps=r.pasos.map(function(p){return '<li>'+p+'</li>';}).join('');
+      receta='<div class="receta receta--inline"><div class="receta__sub">Cómo se hace</div>'+
+        (meta.length?'<div class="receta__meta">'+meta.join('')+'</div>':'')+
+        '<ol class="receta__steps">'+steps+'</ol>'+
+        (r.tip?'<p class="receta__note">💡 '+r.tip+'</p>':'')+'</div>';
+    }else{
+      receta='<div class="receta receta--inline"><p class="receta__note">🥄 Sin cocción: combina los ingredientes y listo.</p></div>';
+    }
     c.innerHTML=
-      '<div class="meal__head"><span class="meal__slot">'+(SLOT_ICON[slot]||'')+' '+(SLOT_LABEL[slot]||slot)+'</span>'+
-        '<span class="meal__kcal">'+meal.totales.kcal+' <span>kcal</span></span></div>'+
+      '<div class="meal__head"><span class="meal__slot">'+(SLOT_ICON[slot]||'')+' '+(SLOT_LABEL[slot]||slot)+' · '+d.nombre+'</span>'+
+        '<span class="meal__kcal">'+tt.kcal+' <span>kcal</span></span></div>'+
       '<h3 class="meal__title">'+meal.titulo+'</h3>'+
-      '<ul class="items">'+items+'</ul>'+chips+swap+
-      '<details class="tip"><summary>💡 Tip <span class="chev">⌄</span></summary><p class="tip__body">'+meal.tip+'</p></details>';
-    return c;
+      '<ul class="items">'+items+'</ul>'+chips+swap+receta+
+      '<details class="tip"><summary>💡 Tip nutricional <span class="chev">⌄</span></summary><p class="tip__body">'+meal.tip+'</p></details>';
+    host.appendChild(c);
   }
 
   /* ---------- water ---------- */
@@ -616,7 +650,7 @@ body.hide-done .row.is-done{display:none}
 
   /* ---------- init ---------- */
   $('#appsub').textContent=D.meta.subtitulo||'';
-  buildTabs();buildRail();renderDay();renderGuide();
+  buildTabs();buildPicker();setMeal(state.day,state.slot);renderGuide();
   setTab(state.tab);
 
   /* ---------- service worker ---------- */

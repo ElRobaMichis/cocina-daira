@@ -1,0 +1,253 @@
+{
+  "Molletes con café con leche": {
+    "tiempo_min": 12,
+    "dificultad": "fácil",
+    "pasos": [
+      "Abre el bolillo a lo largo, tuéstalo 1-2 min en sartén o tostador hasta que dore.",
+      "Calienta el frijol refrito con un poco de aceite y úntalo parejo en las dos mitades.",
+      "Pon láminas de queso panela encima y gratina en sartén tapado o airfryer 3-4 min hasta que suavice.",
+      "Calienta la leche en taza 1.5 min al micro y mézclala con tu café.",
+      "Corona los molletes con aguacate en rebanadas y salsa verde moderada. Sirve con el café con leche."
+    ],
+    "tip": "Usa frijoles refritos de lata y gratina en airfryer a 180°C: el panela se entibia parejo en 3 min sin prender el horno. La salsa verde al final para no recalentar el chile (gastritis)."
+  },
+  "Pozole de pollo": {
+    "tiempo_min": 18,
+    "dificultad": "fácil",
+    "pasos": [
+      "Enjuaga y escurre los 110 g de maíz pozolero de lata; ponlo en una ollita con 1.5 tazas de caldo de pollo y deja que suelte el hervor (5 min).",
+      "Agrega los 150 g de pechuga ya cocida o rostizada deshebrada. Sazona con sal, una pizca de orégano y, si quieres, un toque mínimo de chile en polvo (moderado). Calienta 5-7 min.",
+      "Mientras hierve, pica la lechuga en tiras finas y ralla la zanahoria.",
+      "Sirve el pozole bien caliente y corona con la lechuga y la zanahoria.",
+      "Acompaña con las 2 tostadas horneadas y exprime limón al gusto. Listo."
+    ],
+    "tip": "Versión exprés: maíz pozolero de lata + pollo rostizado deshebrado, solo calientas el caldo y montas. El caldo de pollo da sabor sin cebolla y la zanahoria rallada se entibia sola."
+  },
+  "Tostadas de atún": {
+    "tiempo_min": 10,
+    "dificultad": "fácil",
+    "pasos": [
+      "Escurre bien la lata de atún en agua y sazona con sal, pimienta y unas gotas de limón.",
+      "Machaca el aguacate con un poco de sal y úntalo sobre las 2 tostadas.",
+      "Lava y corta el pepino en rodajas finas o cubitos.",
+      "Reparte el atún sobre las tostadas y corona con el pepino.",
+      "Sirve de inmediato para que queden crujientes."
+    ],
+    "tip": "Compra el pepino ya picado y el aguacate listo: solo escurres, untas y montas. Sin cebolla ni chile para cuidar colitis y gastritis; el limón da frescura sin irritar."
+  },
+  "Huevos con nopales y salsa verde": {
+    "tiempo_min": 15,
+    "dificultad": "fácil",
+    "pasos": [
+      "Enjuaga y escurre el nopal cocido; pícalo en tiras si no lo está. Bate 1 huevo entero + 2 claras con la leche y una pizca de sal.",
+      "En sartén antiadherente con poco aceite, dora el nopal 2-3 min a fuego medio hasta que rechine (sin cebolla).",
+      "Vierte el huevo batido sobre el nopal y revuelve suave 3-4 min hasta que cuaje. Retira del fuego.",
+      "Calienta la salsa verde 30 seg y báñala encima del huevo.",
+      "Calienta las tortillas en comal y sirve los huevos con nopales al lado. Listo."
+    ],
+    "tip": "El nopal de frasco ya cocido se enjuaga y va directo al sartén. Para menos baba, dóralo solo hasta que rechine antes del huevo. La leche deja el huevo más esponjoso."
+  },
+  "Enchiladas verdes de pollo": {
+    "tiempo_min": 18,
+    "dificultad": "fácil",
+    "pasos": [
+      "Deshebra el pollo ya cocido o rostizado y mézclalo con el nopal cocido picado en tiritas.",
+      "Calienta la salsa verde 2-3 min y pasa las tortillas por el sartén caliente solo para suavizarlas, sin freír.",
+      "Rellena cada tortilla con el pollo y nopal, enróllalas y acomódalas en el plato.",
+      "Baña con la salsa verde caliente y desmorona encima el queso panela.",
+      "Agrega la crema en hilo y acompaña con la lechuga picada al lado. Prueba la salsa y dilúyela con un poco de agua si pica de más (chile moderado)."
+    ],
+    "tip": "Usa pollo rostizado deshebrado y salsa verde de bote: solo calientas y montas. Suaviza las tortillas en sartén seco o micro (envueltas en toalla húmeda 20 seg) para que no se rompan."
+  },
+  "Caldo de pollo con verduras": {
+    "tiempo_min": 22,
+    "dificultad": "fácil",
+    "pasos": [
+      "Pica en cubos chicos la zanahoria, el chayote pelado y la calabacita; entre más chicos, más rápido cuecen.",
+      "Pon a hervir agua con sal y un diente de ajo. Agrega zanahoria y chayote y cuece 8 min.",
+      "Añade la calabacita y cuece 5 min más, hasta que todo esté suave.",
+      "Incorpora el pollo ya cocido o rostizado deshebrado solo para calentar 2 min.",
+      "Ajusta sal, retira el ajo y sirve caliente con la tortilla en tiras o totopos. Opcional: gotas de limón y una pizca de chile en polvo moderado."
+    ],
+    "tip": "Usa pollo rostizado deshebrado: solo cueces las verduras y el caldo queda en ~20 min. Suelta un poco de cilantro al final para más sabor sin esfuerzo."
+  },
+  "Avena overnight con chía y plátano + huevo": {
+    "tiempo_min": 10,
+    "dificultad": "fácil",
+    "pasos": [
+      "La noche anterior: en un frasco mezcla avena, chía y leche. Tapa y refrigera mínimo 6-8 horas.",
+      "En la mañana machaca o rebana el plátano encima. Cómela fría o tíbiala 20 seg al micro.",
+      "Bate los huevos enteros con las claras y una pizca de sal.",
+      "Haz huevos revueltos en sartén antiadherente moviendo 2-3 min hasta cuajar.",
+      "Sirve el huevo al lado de la avena y desayuna."
+    ],
+    "tip": "Prepara 2-3 frascos el domingo: aguantan 3 días en el refri y solo agregas el plátano al momento. Sin cebolla ni chile, apto para Daira."
+  },
+  "Salmón a la plancha con arroz y verduras": {
+    "tiempo_min": 20,
+    "dificultad": "fácil",
+    "pasos": [
+      "Cuece el brócoli y la calabacita en trozos 4-5 min (agua, vapor o micro); escurre y sazona con sal, pimienta y un chorrito de aceite de oliva.",
+      "Calienta una plancha a fuego alto con poco aceite y salpimienta el salmón.",
+      "Cocina el salmón 2-3 min por lado (piel abajo primero) hasta que se dore y se desmenuce fácil.",
+      "Calienta el arroz blanco cocido al micro 1 min.",
+      "Monta: cama de arroz, el salmón encima y las verduras al lado. Exprime limón fresco y sirve."
+    ],
+    "tip": "Cuece las verduras mientras se hace el salmón para ahorrar tiempo. Un poco de ajo en polvo o gotas de salsa de soya dan sabor al arroz sin irritar (chile aparte y moderado)."
+  },
+  "Quesadillas de panela, champiñón y pollo": {
+    "tiempo_min": 15,
+    "dificultad": "fácil",
+    "pasos": [
+      "Rebana los champiñones y saltéalos con un chorrito de aceite y sal 3-4 min hasta que doren (sin cebolla).",
+      "Agrega el pollo ya cocido o rostizado deshebrado y calienta junto 1-2 min.",
+      "Calienta las tortillas en comal; rellena cada una con panela en tiritas, el pollo y los champiñones.",
+      "Dobla y dora 1-2 min por lado hasta que el queso ablande y la tortilla quede crujiente.",
+      "Sirve con la salsa verde encima o aparte (chile moderado)."
+    ],
+    "tip": "Saltea el champiñón mientras se calienta la tortilla: montas todo en un solo sartén en menos de 15 min. El panela no se derrite, solo se ablanda, así que dora la quesadilla cerrada."
+  },
+  "Licuado proteico + huevo cocido": {
+    "tiempo_min": 15,
+    "dificultad": "fácil",
+    "pasos": [
+      "Pon a hervir agua y cuece los huevos 10 min; mientras, prepara el licuado.",
+      "En la licuadora vierte la leche, avena, plátano en rodajas y chía.",
+      "Licúa 30-60 seg hasta que quede cremoso (agrega 2-3 hielos si lo quieres más frío).",
+      "Sirve el licuado en un vaso.",
+      "Escurre los huevos, pásalos por agua fría, pélalos y acompáñalos con el licuado."
+    ],
+    "tip": "Deja la avena y la chía remojando en la leche desde la noche anterior: en la mañana solo licúas y queda más cremoso y digestivo. Puedes cocer los huevos por adelantado."
+  },
+  "Bistec asado con nopal y frijoles": {
+    "tiempo_min": 15,
+    "dificultad": "fácil",
+    "pasos": [
+      "Salpimienta el bistec y ásalo en comal caliente con un toque de aceite 2-3 min por lado. Sácalo y córtalo en tiras.",
+      "En el mismo sartén saltea el nopal cocido 2-3 min para que tome sabor y dore ligero.",
+      "Calienta el frijol cocido (machácalo un poco si quieres) y las tortillas en el comal.",
+      "Sirve el bistec con el nopal y los frijoles, baña con la salsa verde y acompaña con las tortillas."
+    ],
+    "tip": "Compra nopal ya cocido en frasco y frijoles de lata: solo calientas y montas. Sin cebolla; la salsa verde da todo el sabor sin irritar."
+  },
+  "Huevos con espinaca y frijol": {
+    "tiempo_min": 15,
+    "dificultad": "fácil",
+    "pasos": [
+      "Saltea la espinaca en sartén con un chorrito de aceite 2-3 min hasta que reduzca. Sazona con sal y pimienta.",
+      "Añade el frijol cocido, mezcla y calienta 1 min.",
+      "Bate 1 huevo entero con las 2 claras y un poco de sal; viértelos sobre la espinaca con frijol.",
+      "Revuelve suave a fuego medio-bajo 2-3 min hasta que cuaje al gusto. Retira del fuego.",
+      "Calienta la tortilla en comal 30 seg por lado y sírvela junto a los huevos."
+    ],
+    "tip": "Usa espinaca baby ya lavada y frijol de bolsa para no picar ni remojar; si te gusta un toque de calor (gastritis: muy moderado), añade una pizca de chile en polvo al huevo."
+  },
+  "Chilaquiles ligeros con pollo": {
+    "tiempo_min": 12,
+    "dificultad": "fácil",
+    "pasos": [
+      "Calienta la salsa verde en sartén o micro hasta que hierva ligeramente (1-2 min). Sin cebolla.",
+      "Aparte, en sartén antiadherente con poco spray, revuelve el huevo entero + la clara hasta cuajar; reserva.",
+      "Calienta el pollo ya cocido y deshebrado (rostizado va más rápido) mezclándolo con la salsa verde 1 min.",
+      "Pon los totopos horneados en el plato y báñalos con la salsa con pollo para que se suavicen pero queden con textura.",
+      "Monta encima el huevo revuelto y desmorona el queso panela. Sirve de inmediato."
+    ],
+    "tip": "Usa pollo rostizado deshebrado y salsa verde de bote: solo calientas y montas. Añade los totopos al final para que no se aguaden."
+  },
+  "Tinga de pollo en tostada": {
+    "tiempo_min": 18,
+    "dificultad": "fácil",
+    "pasos": [
+      "Deshebra el pollo ya cocido o rostizado con dos tenedores.",
+      "Licúa el jitomate con un poquito de chipotle (solo 1/2 cucharadita, chile moderado), sal y un chorrito de agua.",
+      "Sin cebolla: cocina la salsa licuada en sartén con gotitas de aceite y un toque de ajo 3-4 min hasta que espese; agrega el pollo y cocina 3 min más.",
+      "Calienta el frijol cocido y machácalo un poco para untar.",
+      "Unta el frijol en las tostadas, reparte la tinga caliente y corona con lechuga picada y aguacate. Sirve de inmediato."
+    ],
+    "tip": "Usa pollo rostizado y frijoles de lata: solo cueces la salsa y montas. El jitomate va siempre cocido en la salsa (nunca crudo solo), apto para Daira; mantén el chipotle al mínimo por la gastritis."
+  },
+  "Ensalada de pollo": {
+    "tiempo_min": 12,
+    "dificultad": "fácil",
+    "pasos": [
+      "Usa pollo ya cocido o rostizado deshebrado o en cubos. Si está crudo, dóralo en sartén con sal y limón hasta cocer.",
+      "Pica la lechuga, rebana el pepino (pela la mitad) y ralla la zanahoria.",
+      "Mezcla en un bowl la lechuga, el pepino, la zanahoria y el pollo. Adereza con aceite de oliva, limón, sal y pimienta.",
+      "Agrega el aguacate en cubos al final y revuelve con cuidado.",
+      "Sirve y acompaña con la tostada horneada partida en trozos."
+    ],
+    "tip": "Compra pollo rostizado y zanahoria ya rallada: armas todo en 5 minutos sin prender la estufa. Exprime el limón al final para que la lechuga no se aguade."
+  },
+  "Quesadillas de panela y espinaca + guayaba": {
+    "tiempo_min": 12,
+    "dificultad": "fácil",
+    "pasos": [
+      "Calienta un comal sin aceite y entibia las tortillas por ambos lados.",
+      "Marchita la espinaca en el mismo comal 1-2 min hasta que reduzca; reserva.",
+      "Rebana o desmorona el panela y rellena las tortillas con el queso y la espinaca; dobla.",
+      "Dora las quesadillas 1-2 min por lado hasta que el panela suavice y la tortilla quede crujiente.",
+      "Sirve con poca salsa verde encima (por la gastritis) y acompaña con la guayaba en gajos."
+    ],
+    "tip": "El panela no se derrite: rebánalo delgado y tápalo 30 seg para que se suavice parejo. Compra espinaca baby ya lavada para ahorrarte picar."
+  },
+  "Fajitas de pollo con pimiento": {
+    "tiempo_min": 18,
+    "dificultad": "fácil",
+    "pasos": [
+      "Usa pollo ya cocido o rostizado en tiras y corta el pimiento en tiras. Sazona el pollo con sal, ajo en polvo y un toque de pimentón (sin cebolla).",
+      "Saltea el pimiento en sartén con poco aceite 3-4 min hasta que esté blando pero firme.",
+      "Agrega el pollo, mezcla y calienta 2 min. Exprime unas gotas de limón.",
+      "Calienta las tortillas de harina 30 seg por lado. Calienta el frijol cocido y machácalo un poco.",
+      "Arma las fajitas: unta frijol, rellena con pollo y pimiento y corona con aguacate."
+    ],
+    "tip": "Usa pollo rostizado en tiras: solo lo salteas 2 min con el pimiento. El pimiento ya picado de bolsa acelera todo aún más."
+  },
+  "Requesón con verduras y tostada": {
+    "tiempo_min": 10,
+    "dificultad": "fácil",
+    "pasos": [
+      "Pela y pica el pepino en cubitos y ralla la zanahoria.",
+      "Mezcla el requesón con sal y un toque de pimienta hasta que quede cremoso.",
+      "Embarra la mitad del requesón sobre cada tostada horneada.",
+      "Reparte el pepino y la zanahoria encima.",
+      "Baña con poca salsa verde por encima y sirve de inmediato."
+    ],
+    "tip": "Compra la zanahoria ya rallada y el pepino en cubitos para armar la cena en menos de 5 minutos; sin cebolla y con poca salsa, ideal para gastritis y colitis."
+  },
+  "Huevos con frijol y aguacate": {
+    "tiempo_min": 12,
+    "dificultad": "fácil",
+    "pasos": [
+      "Bate 2 huevos enteros con las 2 claras y una pizca de sal. Sin cebolla.",
+      "Cuece los huevos en sartén antiadherente con un toque de aceite, revolviendo suave 2-3 min hasta cuajar.",
+      "Calienta el frijol cocido 2 min (machácalo un poco si los quieres refritos sin freír).",
+      "Calienta las tortillas en comal 30 seg por lado.",
+      "Sirve los huevos junto a los frijoles, baña con la salsa verde y coloca el aguacate en rebanadas. Acompaña con la leche fría o tibia."
+    ],
+    "tip": "Apaga los huevos cuando aún se vean ligeramente húmedos: terminan de cuajar con el calor residual y quedan más esponjosos. Si usas frijoles de lata, solo escúrrelos y caliéntalos."
+  },
+  "Caldo de res con verduras": {
+    "tiempo_min": 22,
+    "dificultad": "fácil",
+    "pasos": [
+      "Corta el bistec en tiras delgadas y la zanahoria, calabacita y chayote en cubos chicos.",
+      "En una olla pon la carne con 1 diente de ajo machacado (sin cebolla) y cubre con agua; cuece a fuego alto 6-7 min retirando la espuma.",
+      "Agrega zanahoria y chayote y cuece 6 min; luego añade la calabacita y cuece 5 min más hasta que todo esté suave.",
+      "Sazona con sal y, si quieres, una pizca de chile en polvo moderado o cilantro; no agregues jitomate crudo.",
+      "Sirve caliente y acompaña con el arroz blanco cocido (caliéntalo aparte) y la tortilla."
+    ],
+    "tip": "Usa bistec en tiras delgadas en vez de carne con hueso: cuece en minutos en una sola olla. Si tienes res ya cocida deshebrada, solo caliéntala con las verduras y bajas a 15 min."
+  },
+  "Sopa de verduras con pollo y panela": {
+    "tiempo_min": 20,
+    "dificultad": "fácil",
+    "pasos": [
+      "Pon a hervir caldo de pollo con un poco de sal y, si quieres, una pizca de ajo en polvo (sin cebolla).",
+      "Agrega la zanahoria en cubos pequeños 5 min; luego suma la calabacita y cocina 5 min más hasta que estén suaves.",
+      "Incorpora el pollo ya cocido o rostizado deshebrado solo para calentar 2 min.",
+      "Apaga el fuego, echa la espinaca y tapa 1 min para que se marchite con el calor.",
+      "Sirve caliente, espolvorea el panela en cubitos y acompaña con la tortilla entera o en totopos."
+    ],
+    "tip": "Usa pollo rostizado deshebrado y verdura ya picada de bolsa: solo hierves, calientas y montas. La espinaca se cocina sola con el calor de la sopa."
+  }
+}

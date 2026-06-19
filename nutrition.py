@@ -97,6 +97,19 @@ BANDS = dict(kcal=(1420, 1580), p=(108, 124), f=(40, 58), c=(132, 168), fib=(25,
 
 DAY_NAMES = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 
+
+# Recetas por platillo (tiempo/dificultad/pasos/tip), investigadas y adaptadas a cada platillo.
+def _load_recetas_comidas():
+    path = os.path.join(os.path.dirname(__file__), "_recetas.json")
+    try:
+        with open(path, encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
+RECETAS_COMIDAS = _load_recetas_comidas()
+
 # ----------------------------------------------------------------------------
 # EL PLAN  (food_id, gramos, [nota opcional])
 # ----------------------------------------------------------------------------
@@ -278,6 +291,7 @@ def build():
                 "tip": tip,
                 "items": items_out,
                 "totales": dict(meal_round),
+                "receta": RECETAS_COMIDAS.get(title),
             })
         days_out.append({
             "idx": di,
