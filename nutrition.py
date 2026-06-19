@@ -110,6 +110,37 @@ def _load_recetas_comidas():
 
 RECETAS_COMIDAS = _load_recetas_comidas()
 
+
+# Platillos extra adaptados del recetario 1300cal (se muestran como opciones en los dropdowns)
+def _load_extras():
+    path = os.path.join(os.path.dirname(__file__), "_extras.json")
+    try:
+        with open(path, encoding="utf-8") as fh:
+            raw = json.load(fh)
+    except Exception:
+        return []
+    MAC = ("kcal", "p", "c", "f", "fib")
+    out = []
+    for r in raw:
+        items, tot = [], {m: 0 for m in MAC}
+        for it in r.get("ingredientes", r.get("items", [])):
+            ri = {m: round(it.get(m, 0)) for m in MAC}
+            for m in MAC:
+                tot[m] += ri[m]
+            items.append({"nombre": it["nombre"], "cantidad": it["cantidad"], **ri})
+        out.append({
+            "slot": r["slot"],
+            "titulo": r["titulo"],
+            "items": items,
+            "totales": tot,
+            "receta": r.get("receta"),
+            "extra": True,
+        })
+    return out
+
+
+EXTRAS = _load_extras()
+
 # ----------------------------------------------------------------------------
 # EL PLAN  (food_id, gramos, [nota opcional])
 # ----------------------------------------------------------------------------
@@ -447,6 +478,7 @@ def main():
         "compras": shopping,
         "guia": GUIA,
         "recetas": RECETAS,
+        "extras": EXTRAS,
     }
     out_json = os.path.join(os.path.dirname(__file__), "plan_data.json")
     out_js = os.path.join(os.path.dirname(__file__), "plan_data.js")

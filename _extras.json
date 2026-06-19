@@ -1,0 +1,3536 @@
+[
+ {
+  "slot": "Desayuno",
+  "titulo": "Pancakes de avena",
+  "ingredientes": [
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "60 g (2/3 taza)",
+    "kcal": 228,
+    "p": 8.1,
+    "c": 39,
+    "f": 4.1,
+    "fib": 6.4
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "90 g (3 claras)",
+    "kcal": 47,
+    "p": 9.8,
+    "c": 0.7,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche (semidescremada)",
+    "cantidad": "80 ml (1/3 taza)",
+    "kcal": 40,
+    "p": 2.6,
+    "c": 4,
+    "f": 1.4,
+    "fib": 0
+   },
+   {
+    "nombre": "Yogur natural",
+    "cantidad": "70 g (1/4 taza)",
+    "kcal": 43,
+    "p": 3.8,
+    "c": 4.2,
+    "f": 1.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "10 g (1/2 cda)",
+    "kcal": 30,
+    "p": 0,
+    "c": 8.2,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Plátano",
+    "cantidad": "60 g (1/2 pieza)",
+    "kcal": 53,
+    "p": 0.6,
+    "c": 13.6,
+    "f": 0.2,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "80 g (libres)",
+    "kcal": 26,
+    "p": 0.5,
+    "c": 6.2,
+    "f": 0.2,
+    "fib": 1.6
+   }
+  ],
+  "totales": {
+   "kcal": 467,
+   "p": 25.4,
+   "c": 75.9,
+   "f": 7.2,
+   "fib": 11.2
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Licúa la avena, las claras, la leche y el yogur natural hasta tener una mezcla tersa. Deja reposar 3 minutos.",
+    "Calienta un sartén antiadherente a fuego medio-bajo con apenas un toque de grasa.",
+    "Vierte porciones y forma pancakes chicos. Cocina 2 a 3 minutos hasta que salgan burbujitas.",
+    "Voltea con cuidado y cocina 1 a 2 minutos más.",
+    "Sirve y corona con el plátano rebanado, las fresas y la miel."
+   ],
+   "tip": "Para más proteína sin polvo, sube a 4 claras o agrega otra cucharada de yogur natural. Deja reposar bien la mezcla para que queden esponjosos."
+  },
+  "ajustes": "Escalé la receta al rango de desayuno de Daira (~420-520 kcal): 467 kcal y 25 g de proteína. Cambié 'yogurt griego' por yogur natural y la leche de almendras por semidescremada. Sin cebolla, jitomate crudo, pescado ni picante. Apta para gastritis y colitis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Pollo con arroz",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo cocida (sin piel)",
+    "cantidad": "150 g",
+    "kcal": 248,
+    "p": 46.5,
+    "c": 0,
+    "f": 5.4,
+    "fib": 0
+   },
+   {
+    "nombre": "Arroz integral cocido",
+    "cantidad": "90 g (1/2 taza)",
+    "kcal": 101,
+    "p": 2.3,
+    "c": 21.1,
+    "f": 0.8,
+    "fib": 1.5
+   },
+   {
+    "nombre": "Brócoli al vapor",
+    "cantidad": "150 g (1 taza)",
+    "kcal": 51,
+    "p": 4.2,
+    "c": 10.5,
+    "f": 0.6,
+    "fib": 3.9
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "40 g (1/3 de pieza chica)",
+    "kcal": 64,
+    "p": 0.8,
+    "c": 3.4,
+    "f": 5.9,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Tostada horneada (tipo Susalia)",
+    "cantidad": "1 pieza (12 g)",
+    "kcal": 50,
+    "p": 1.1,
+    "c": 9.5,
+    "f": 0.8,
+    "fib": 0.7
+   }
+  ],
+  "totales": {
+   "kcal": 514,
+   "p": 54.9,
+   "c": 44.5,
+   "f": 13.5,
+   "fib": 8.8
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Salpimienta la pechuga y dórala a la plancha a fuego medio 5-6 min por lado. Deja reposar y rebana.",
+    "Cuece el arroz integral; mide 1/2 taza ya cocido.",
+    "Cuece el brócoli al vapor 4-5 min, al dente. Escúrrelo.",
+    "Rebana el aguacate.",
+    "Sirve el arroz de base, encima el pollo, el brócoli al lado y el aguacate. Acompaña con 1 tostada.",
+    "Sazona con limón, sal, pimienta y orégano. Una pizca ligera de chile si quieres calor (suave por la gastritis)."
+   ],
+   "tip": "Cocina 2-3 pechugas de una vez y guárdalas en el refri. El limón realza el sabor sin irritar el estómago."
+  },
+  "ajustes": "Receta ya compatible. Escalé a 514 kcal con 55 g de proteína para el rango de Comida. Pechuga sin piel a la plancha, chile opcional y suave por gastritis, brócoli al vapor para conservar fibra."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Poke bowl",
+  "ingredientes": [
+   {
+    "nombre": "Arroz integral cocido",
+    "cantidad": "150 g (1 taza)",
+    "kcal": 166,
+    "p": 3.5,
+    "c": 34,
+    "f": 1.3,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Salmón fresco",
+    "cantidad": "130 g",
+    "kcal": 190,
+    "p": 26,
+    "c": 0,
+    "f": 9.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "50 g (1/3 pieza)",
+    "kcal": 80,
+    "p": 1,
+    "c": 4.3,
+    "f": 7.3,
+    "fib": 3.4
+   },
+   {
+    "nombre": "Edamame desvainado",
+    "cantidad": "40 g",
+    "kcal": 49,
+    "p": 4.5,
+    "c": 3.6,
+    "f": 2,
+    "fib": 2
+   },
+   {
+    "nombre": "Salsa de soya baja en sodio",
+    "cantidad": "10 ml",
+    "kcal": 6,
+    "p": 1,
+    "c": 0.5,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Jugo de limón",
+    "cantidad": "10 ml",
+    "kcal": 2,
+    "p": 0,
+    "c": 0.7,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Ajonjolí negro",
+    "cantidad": "5 g",
+    "kcal": 29,
+    "p": 0.9,
+    "c": 1.2,
+    "f": 2.5,
+    "fib": 0.6
+   }
+  ],
+  "totales": {
+   "kcal": 522,
+   "p": 36.9,
+   "c": 44.3,
+   "f": 22.2,
+   "fib": 8.8
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece el arroz integral y deja entibiar; sírvelo de base en un tazón hondo.",
+    "Corta el salmón en cubos de 1.5 cm. Séllalo 2-3 min por lado en sartén caliente (o úsalo crudo solo si es grado sushi de tu confianza).",
+    "Mezcla la soya baja en sodio con el jugo de limón y baña los cubos de salmón; marina 5 min.",
+    "Rebana el aguacate y cuece el edamame al vapor 3 min.",
+    "Acomoda sobre el arroz el salmón marinado, el aguacate y el edamame por secciones.",
+    "Termina con ajonjolí negro espolvoreado y un chorrito del marinado restante."
+   ],
+   "tip": "Si no consigues salmón fresco de confianza para crudo, séllalo o usa salmón enlatado escurrido; queda igual de rico."
+  },
+  "ajustes": "Cambié el atún fresco por salmón (único pescado fresco permitido). QUITÉ el surimi (es pasta de pescado blanco, no salmón ni atún de lata) y lo sustituí por edamame, manteniendo proteína vegetal sin romper la regla de pescado. Subí salmón a 130 g para anclar proteína. Sin cebolla ni jitomate crudo. Apto para gastritis."
+ },
+ {
+  "slot": "Snacks",
+  "titulo": "Yogurt con fresas",
+  "ingredientes": [
+   {
+    "nombre": "Yogur natural",
+    "cantidad": "200 g",
+    "kcal": 124,
+    "p": 7.2,
+    "c": 9.2,
+    "f": 6.4,
+    "fib": 0
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "150 g (8-10 piezas)",
+    "kcal": 48,
+    "p": 1,
+    "c": 11.5,
+    "f": 0.4,
+    "fib": 3
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "10 g (1/2 cda)",
+    "kcal": 30,
+    "p": 0,
+    "c": 8.2,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche",
+    "cantidad": "30 ml",
+    "kcal": 19,
+    "p": 1,
+    "c": 1.4,
+    "f": 1,
+    "fib": 0
+   },
+   {
+    "nombre": "Nuez picada",
+    "cantidad": "8 g",
+    "kcal": 52,
+    "p": 1.2,
+    "c": 1.1,
+    "f": 5.2,
+    "fib": 0.5
+   }
+  ],
+  "totales": {
+   "kcal": 273,
+   "p": 10.4,
+   "c": 31.4,
+   "f": 13,
+   "fib": 3.5
+  },
+  "receta": {
+   "tiempo_min": 5,
+   "dificultad": "fácil",
+   "pasos": [
+    "Pon el yogur natural en un tazón y agrega la leche poco a poco hasta la consistencia que te guste.",
+    "Lava y rebana las fresas. Acomódalas encima.",
+    "Baña con la media cucharada de miel.",
+    "Espolvorea la nuez picada y sirve de inmediato."
+   ],
+   "tip": "Para subir la proteína, licúa 2-3 claras cocidas con el yogur. La nuez es opcional: quítala si buscas bajar grasa."
+  },
+  "ajustes": "Cambié 'yogurt griego' por yogur natural. Escalé al rango de snack (200-300 kcal): 273 kcal con nuez para saciedad. Sin cebolla, jitomate, pescado ni picante."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Tostadas de pollo",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo (cocida y deshebrada)",
+    "cantidad": "100 g",
+    "kcal": 165,
+    "p": 31,
+    "c": 0,
+    "f": 3.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Tostadas horneadas (Susalia o similar)",
+    "cantidad": "3 piezas (36 g)",
+    "kcal": 140,
+    "p": 3,
+    "c": 27,
+    "f": 2,
+    "fib": 2
+   },
+   {
+    "nombre": "Queso Oaxaca (espolvoreado)",
+    "cantidad": "30 g",
+    "kcal": 90,
+    "p": 7,
+    "c": 1,
+    "f": 6.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "50 g (1/3 de pieza)",
+    "kcal": 80,
+    "p": 1,
+    "c": 4,
+    "f": 7.4,
+    "fib": 3.4
+   },
+   {
+    "nombre": "Lechuga picada",
+    "cantidad": "40 g",
+    "kcal": 6,
+    "p": 0.5,
+    "c": 1.2,
+    "f": 0.1,
+    "fib": 0.8
+   },
+   {
+    "nombre": "Champiñones salteados",
+    "cantidad": "40 g",
+    "kcal": 11,
+    "p": 1.2,
+    "c": 1.3,
+    "f": 0.1,
+    "fib": 0.4
+   }
+  ],
+  "totales": {
+   "kcal": 492,
+   "p": 43.7,
+   "c": 34.5,
+   "f": 19.7,
+   "fib": 6.6
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece la pechuga en agua con un poco de sal 10-12 min, escúrrela y deshébrala.",
+    "Saltea los champiñones rebanados con unas gotas de aceite 3-4 min hasta que doren ligero.",
+    "Reparte el pollo sobre las 3 tostadas.",
+    "Espolvorea el queso Oaxaca sobre el pollo caliente para que funda.",
+    "Corona con aguacate en láminas, lechuga y champiñones.",
+    "Acompaña con salsa verde casera o gotas de limón."
+   ],
+   "tip": "Si quieres jitomate, úsalo cocido en una salsa molcajeteada suave (nunca crudo) para cuidar la gastritis."
+  },
+  "ajustes": "Quité el jitomate crudo de los toppings; si se usa, va solo cocido en salsa. Sin cebolla. Champiñones y lechuga concretados como toppings. Cena alta en proteína (44 g) dentro de su día de ~1500 kcal."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "French toasts",
+  "ingredientes": [
+   {
+    "nombre": "Pan integral",
+    "cantidad": "3 rebanadas (90 g)",
+    "kcal": 222,
+    "p": 11,
+    "c": 39,
+    "f": 3,
+    "fib": 6
+   },
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Clara de huevo",
+    "cantidad": "2 claras (66 g)",
+    "kcal": 34,
+    "p": 7,
+    "c": 1,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Proteína en polvo (OPCIONAL)",
+    "cantidad": "1/2 scoop (15 g)",
+    "kcal": 57,
+    "p": 12,
+    "c": 1,
+    "f": 1,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche de almendras sin azúcar",
+    "cantidad": "1/8 taza (30 ml)",
+    "kcal": 4,
+    "p": 0,
+    "c": 0,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Plátano",
+    "cantidad": "1/3 pieza (40 g)",
+    "kcal": 36,
+    "p": 0,
+    "c": 9,
+    "f": 0,
+    "fib": 1
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "100 g",
+    "kcal": 32,
+    "p": 1,
+    "c": 8,
+    "f": 0,
+    "fib": 2
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "1 cucharada (21 g)",
+    "kcal": 64,
+    "p": 0,
+    "c": 17,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 521,
+   "p": 37,
+   "c": 75,
+   "f": 9,
+   "fib": 11
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Bate el huevo, las claras, la proteína (si la usas), la leche de almendras, canela y vainilla al gusto.",
+    "Remoja las rebanadas de pan 20 segundos por lado.",
+    "Calienta un sartén antiadherente a fuego medio con spray o muy poca grasa.",
+    "Dora el pan 2 a 3 minutos por lado.",
+    "Sirve y corona con el plátano, las fresas y un hilo de miel."
+   ],
+   "tip": "Sin proteína en polvo, agrega 3 claras más a la mezcla. La canela endulza con menos miel, ideal para la gastritis."
+  },
+  "ajustes": "Escalé a 521 kcal/37 g para el rango de desayuno. Proteína en polvo OPCIONAL (alternativa: 3 claras extra). Desayuno dulce sin constraints duras aplicables."
+ },
+ {
+  "slot": "Snacks",
+  "titulo": "Mugcake de chocolate",
+  "ingredientes": [
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "35 g (1/2 taza)",
+    "kcal": 133,
+    "p": 4.7,
+    "c": 23,
+    "f": 2.7,
+    "fib": 3.5
+   },
+   {
+    "nombre": "Cocoa en polvo sin azúcar",
+    "cantidad": "10 g (2 cucharadas)",
+    "kcal": 23,
+    "p": 2,
+    "c": 5.5,
+    "f": 1.4,
+    "fib": 3.3
+   },
+   {
+    "nombre": "Plátano",
+    "cantidad": "60 g (1/2 pieza)",
+    "kcal": 53,
+    "p": 0.6,
+    "c": 13.5,
+    "f": 0.2,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "120 g (1/2 taza)",
+    "kcal": 62,
+    "p": 13,
+    "c": 0.9,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "14 g (2 cucharaditas)",
+    "kcal": 43,
+    "p": 0,
+    "c": 11.5,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 314,
+   "p": 20.3,
+   "c": 54.4,
+   "f": 4.5,
+   "fib": 8.4
+  },
+  "receta": {
+   "tiempo_min": 5,
+   "dificultad": "fácil",
+   "pasos": [
+    "Licúa la avena, la cocoa, el plátano, las claras y la miel hasta una mezcla lisa.",
+    "Vierte en una taza grande apta para microondas (no más de 2/3).",
+    "Mete al microondas 1.5 minutos, parando cada 30 segundos; listo cuando el centro ya no se vea líquido.",
+    "Deja reposar 1 minuto antes de comer."
+   ],
+   "tip": "Para más esponjoso, agrega una pizca de polvo para hornear. Como postworkout, cómelo dentro de la hora siguiente al entrenamiento."
+  },
+  "ajustes": "Bajé la miel a 2 cucharaditas para controlar azúcar libre por gastritis. 314 kcal con ~20 g de proteína de las claras (sin polvo). Sin constraints aplicables."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Salmón y camote",
+  "ingredientes": [
+   {
+    "nombre": "Salmón fresco",
+    "cantidad": "130 g",
+    "kcal": 265,
+    "p": 26,
+    "c": 0,
+    "f": 17.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Camote hervido u horneado",
+    "cantidad": "150 g (1 taza)",
+    "kcal": 129,
+    "p": 2.3,
+    "c": 30,
+    "f": 0.2,
+    "fib": 4.5
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "40 g (1/3 de pieza)",
+    "kcal": 64,
+    "p": 0.8,
+    "c": 3.4,
+    "f": 5.9,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Verduras (calabacita y ejotes salteados)",
+    "cantidad": "150 g",
+    "kcal": 38,
+    "p": 2.5,
+    "c": 7,
+    "f": 0.4,
+    "fib": 3
+   },
+   {
+    "nombre": "Aceite de oliva (para sellar y saltear)",
+    "cantidad": "5 ml (1 cdita)",
+    "kcal": 44,
+    "p": 0,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 540,
+   "p": 31.6,
+   "c": 40.4,
+   "f": 28.8,
+   "fib": 10.2
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve u hornea el camote hasta que esté suave; pélalo y pártelo.",
+    "Salpimienta el salmón. Calienta un sartén con la mitad del aceite a fuego medio-alto.",
+    "Sella el salmón con la piel hacia abajo 3-4 min, voltea y cocina otros 3-4 min. Solo sal, pimienta y limón, sin chile.",
+    "En el mismo sartén con el resto del aceite, saltea calabacita y ejotes 4-5 min al dente.",
+    "Sirve el salmón con el camote y las verduras. Aguacate a un lado."
+   ],
+   "tip": "Hornea el camote en lote para varios días. Un chorrito de limón sobre el salmón realza el sabor sin picante."
+  },
+  "ajustes": "Bajé salmón de 180 a 130 g y camote a 150 g para acercar al rango de Comida (540 kcal vs 667 originales, que se disparaban). Ya usaba salmón, sin cebolla ni picante. Verduras concretadas en calabacita y ejotes."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Miguitas con huevo y frijoles",
+  "ingredientes": [
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "2 piezas (100 g)",
+    "kcal": 143,
+    "p": 12.6,
+    "c": 0.7,
+    "f": 9.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "2 claras (66 g)",
+    "kcal": 34,
+    "p": 7.3,
+    "c": 0.5,
+    "f": 0.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Tortilla de maíz",
+    "cantidad": "2 piezas (56 g)",
+    "kcal": 122,
+    "p": 3.2,
+    "c": 25.2,
+    "f": 1.5,
+    "fib": 3.1
+   },
+   {
+    "nombre": "Frijoles negros cocidos",
+    "cantidad": "1/2 taza (86 g)",
+    "kcal": 114,
+    "p": 7.6,
+    "c": 20.4,
+    "f": 0.5,
+    "fib": 7.5
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "1/4 pieza (40 g)",
+    "kcal": 64,
+    "p": 0.8,
+    "c": 3.4,
+    "f": 5.9,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "1/2 cucharadita (2.5 ml)",
+    "kcal": 22,
+    "p": 0,
+    "c": 0,
+    "f": 2.5,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 499,
+   "p": 31.5,
+   "c": 50.6,
+   "f": 20,
+   "fib": 20.8
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Parte las 2 tortillas en cuadritos chicos (tipo totopo).",
+    "Calienta el aceite a fuego medio y dora los cuadritos un par de minutos.",
+    "Bate los 2 huevos enteros con las 2 claras y una pizca de sal.",
+    "Vierte el huevo sobre las tortillas y mueve hasta que cuaje.",
+    "Calienta los frijoles negros y sírvelos junto a las miguitas.",
+    "Acompaña con el aguacate en rebanadas."
+   ],
+   "tip": "Para un toque de sabor sin irritar la gastritis, agrega cilantro o salsa verde casera suave en lugar de chile fuerte."
+  },
+  "ajustes": "Bajé a 2 tortillas y 2 claras para ajustar de 578 a ~499 kcal dentro del rango de desayuno. Sin cebolla, jitomate crudo, pescado ni picante. Alto en fibra (21 g), ideal por colitis/gastritis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Ensalada con pollo",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo a la plancha",
+    "cantidad": "150 g",
+    "kcal": 248,
+    "p": 46.5,
+    "c": 0,
+    "f": 5.4,
+    "fib": 0
+   },
+   {
+    "nombre": "Espinacas frescas",
+    "cantidad": "60 g (1½ tazas)",
+    "kcal": 14,
+    "p": 2,
+    "c": 2,
+    "f": 0,
+    "fib": 1
+   },
+   {
+    "nombre": "Fresas en mitades",
+    "cantidad": "90 g",
+    "kcal": 29,
+    "p": 1,
+    "c": 7,
+    "f": 0,
+    "fib": 2
+   },
+   {
+    "nombre": "Nueces en pedacitos",
+    "cantidad": "15 g",
+    "kcal": 98,
+    "p": 2,
+    "c": 2,
+    "f": 10,
+    "fib": 1
+   },
+   {
+    "nombre": "Queso de cabra desmoronado",
+    "cantidad": "28 g",
+    "kcal": 75,
+    "p": 5,
+    "c": 1,
+    "f": 6,
+    "fib": 0
+   },
+   {
+    "nombre": "Aceite de oliva extra virgen",
+    "cantidad": "5 ml (1 cdita)",
+    "kcal": 40,
+    "p": 0,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Vinagre balsámico",
+    "cantidad": "15 ml (1 cda)",
+    "kcal": 14,
+    "p": 0,
+    "c": 3,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 518,
+   "p": 56.5,
+   "c": 15,
+   "f": 25.9,
+   "fib": 5
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Salpimienta la pechuga y ásala a la plancha 5-6 min por lado; deja reposar y córtala en tiras.",
+    "Lava las espinacas y ponlas de base en el plato.",
+    "Acomoda encima las tiras de pollo, las fresas y las nueces.",
+    "Desmorona el queso de cabra por encima.",
+    "Bate el aceite con el vinagre balsámico, sal y pimienta; baña la ensalada antes de comer."
+   ],
+   "tip": "Para más cremosidad sin queso, cámbialo por 1/3 de aguacate. Asa el pollo con ajo en polvo y orégano para sabor sin irritar el estómago."
+  },
+  "ajustes": "Bajé pechuga de 160 a 150 g para caer en el rango de Comida (518 kcal). Sin cebolla ni jitomate crudo; aderezo solo de balsámico y aceite, sin picante. Es pollo, no aplica regla de pescado."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Pollo con puré de papa",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo (cruda)",
+    "cantidad": "150 g",
+    "kcal": 165,
+    "p": 31,
+    "c": 0,
+    "f": 3.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Papa mediana hervida",
+    "cantidad": "173 g",
+    "kcal": 150,
+    "p": 3.5,
+    "c": 34,
+    "f": 0.2,
+    "fib": 3.1
+   },
+   {
+    "nombre": "Coliflor (al vapor)",
+    "cantidad": "120 g",
+    "kcal": 30,
+    "p": 2.3,
+    "c": 6,
+    "f": 0.3,
+    "fib": 2.4
+   },
+   {
+    "nombre": "Mantequilla",
+    "cantidad": "7 g (1/2 cda)",
+    "kcal": 50,
+    "p": 0.1,
+    "c": 0,
+    "f": 5.7,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche (un chorrito; o leche de almendras)",
+    "cantidad": "30 ml",
+    "kcal": 18,
+    "p": 1,
+    "c": 1.4,
+    "f": 1,
+    "fib": 0
+   },
+   {
+    "nombre": "Sal de mar y pimienta",
+    "cantidad": "al gusto",
+    "kcal": 0,
+    "p": 0,
+    "c": 0,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 413,
+   "p": 37.9,
+   "c": 41.4,
+   "f": 10.8,
+   "fib": 7.5
+  },
+  "receta": {
+   "tiempo_min": 30,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve la papa con cáscara en agua con sal 18-20 min hasta que esté suave.",
+    "Cuece la coliflor al vapor 5-7 min, tierna pero firme.",
+    "Salpimienta la pechuga y ásala con poco spray 5-6 min por lado.",
+    "Pela la papa y machácala. Agrega mantequilla, el chorrito de leche, sal y pimienta hasta que quede cremoso.",
+    "Sirve el pollo junto al puré y la coliflor."
+   ],
+   "tip": "Para más proteína, mezcla 2 cucharadas de yogur natural en el puré. Deja reposar el pollo 3 min antes de cortarlo."
+  },
+  "ajustes": "Ya cae en rango (413 kcal, 38 g proteína). Sustituí leche de almendras por leche normal (con la opción entre paréntesis). Coliflor concretada en 120 g. Sin constraints aplicables."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Espagueti a la boloñesa",
+  "ingredientes": [
+   {
+    "nombre": "Espagueti integral cocido",
+    "cantidad": "160 g (1 taza)",
+    "kcal": 198,
+    "p": 7,
+    "c": 39,
+    "f": 1,
+    "fib": 5
+   },
+   {
+    "nombre": "Carne molida de res 95/5",
+    "cantidad": "150 g",
+    "kcal": 218,
+    "p": 33,
+    "c": 0,
+    "f": 9,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de tomate (jitomate cocido natural)",
+    "cantidad": "100 g",
+    "kcal": 32,
+    "p": 1.5,
+    "c": 7,
+    "f": 0.3,
+    "fib": 1.5
+   },
+   {
+    "nombre": "Zanahoria picada",
+    "cantidad": "40 g",
+    "kcal": 16,
+    "p": 0.4,
+    "c": 4,
+    "f": 0.1,
+    "fib": 1.1
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "5 ml (1 cdita)",
+    "kcal": 44,
+    "p": 0,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Queso parmesano rallado",
+    "cantidad": "8 g",
+    "kcal": 34,
+    "p": 3,
+    "c": 0.3,
+    "f": 2.3,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 542,
+   "p": 44.9,
+   "c": 50.3,
+   "f": 17.7,
+   "fib": 7.6
+  },
+  "receta": {
+   "tiempo_min": 20,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve agua con sal y cuece el espagueti integral al dente; escurre y reserva.",
+    "Calienta el aceite a fuego medio y sofríe la zanahoria 3-4 minutos.",
+    "Agrega la carne molida y desmenúzala; cocina hasta que se dore parejo.",
+    "Vierte la salsa de tomate (jitomate ya cocido) y sazona con romero y albahaca; deja 6-8 minutos a fuego bajo.",
+    "Mezcla el espagueti con la boloñesa, sirve y espolvorea el parmesano."
+   ],
+   "tip": "Si la salsa queda muy espesa, afloja con un chorrito del agua de cocción del espagueti."
+  },
+  "ajustes": "Quité la cebolla; sofrito solo con zanahoria. Jitomate solo cocido en salsa. Sin picante; sazón con romero y albahaca. 542 kcal con 45 g de proteína, ligeramente arriba del rango por la fibra del integral."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Tostadas de ceviche",
+  "ingredientes": [
+   {
+    "nombre": "Salmón cocido (al vapor o a la plancha, sin piel)",
+    "cantidad": "110 g",
+    "kcal": 204,
+    "p": 22.7,
+    "c": 0,
+    "f": 12.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Tostadas Susalia (horneadas)",
+    "cantidad": "2 piezas (~24 g)",
+    "kcal": 93,
+    "p": 2,
+    "c": 18,
+    "f": 1.3,
+    "fib": 2
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "40 g (1/3 pieza)",
+    "kcal": 64,
+    "p": 1,
+    "c": 3,
+    "f": 6,
+    "fib": 3
+   },
+   {
+    "nombre": "Mayonesa light",
+    "cantidad": "10 g (2 cdtas)",
+    "kcal": 35,
+    "p": 0,
+    "c": 0.7,
+    "f": 3.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Pepino picado",
+    "cantidad": "60 g",
+    "kcal": 9,
+    "p": 0.4,
+    "c": 2,
+    "f": 0.1,
+    "fib": 1
+   },
+   {
+    "nombre": "Jugo de limón",
+    "cantidad": "20 ml",
+    "kcal": 5,
+    "p": 0,
+    "c": 1.7,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Cilantro picado",
+    "cantidad": "5 g",
+    "kcal": 1,
+    "p": 0.1,
+    "c": 0.1,
+    "f": 0,
+    "fib": 0.1
+   }
+  ],
+  "totales": {
+   "kcal": 411,
+   "p": 26.2,
+   "c": 25.5,
+   "f": 23.2,
+   "fib": 6.2
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece el salmón al vapor o a la plancha hasta que se desmenuce fácil (6-8 min). Deja entibiar.",
+    "Desmenuza el salmón con un tenedor en un tazón.",
+    "Agrega la mayonesa light, el jugo de limón, el pepino y el cilantro. Mezcla.",
+    "Prueba y ajusta limón. Un toque de salsa picante si quieres (moderado).",
+    "Monta el ceviche sobre las tostadas y corona con aguacate. Sirve de inmediato."
+   ],
+   "tip": "Para bajar grasa y subir frescura, usa media cucharada de mayonesa y compensa con más limón y pepino."
+  },
+  "ajustes": "Cambié la tilapia por salmón (único pescado permitido). Bajé a 110 g de salmón, 2 tostadas y mayonesa light a 10 g para caer en el rango de Cena (411 kcal vs 549 originales). Picante opcional y moderado. Sin cebolla ni camarón."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Avo toast con claras",
+  "ingredientes": [
+   {
+    "nombre": "Pan integral (rebanadas para tostar)",
+    "cantidad": "2 piezas (~56 g)",
+    "kcal": 140,
+    "p": 8,
+    "c": 24,
+    "f": 2,
+    "fib": 4
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "75 g (1/2 chico)",
+    "kcal": 120,
+    "p": 1.5,
+    "c": 6,
+    "f": 11,
+    "fib": 5
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "6 piezas (~198 g)",
+    "kcal": 102,
+    "p": 21.6,
+    "c": 1.4,
+    "f": 0.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Espinacas baby",
+    "cantidad": "40 g",
+    "kcal": 9,
+    "p": 1.1,
+    "c": 1.4,
+    "f": 0.2,
+    "fib": 0.9
+   },
+   {
+    "nombre": "Pimiento (morrón) en cubos",
+    "cantidad": "40 g",
+    "kcal": 12,
+    "p": 0.4,
+    "c": 2.4,
+    "f": 0.1,
+    "fib": 0.8
+   },
+   {
+    "nombre": "Aceite de oliva (para el sartén)",
+    "cantidad": "3 ml (~1/2 cdita)",
+    "kcal": 27,
+    "p": 0,
+    "c": 0,
+    "f": 3,
+    "fib": 0
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "100 g",
+    "kcal": 32,
+    "p": 0.7,
+    "c": 7.7,
+    "f": 0.3,
+    "fib": 2
+   }
+  ],
+  "totales": {
+   "kcal": 442,
+   "p": 33.3,
+   "c": 42.9,
+   "f": 16.9,
+   "fib": 12.6
+  },
+  "receta": {
+   "tiempo_min": 12,
+   "dificultad": "fácil",
+   "pasos": [
+    "Tuesta las 2 rebanadas de pan hasta que queden doraditas.",
+    "Machaca el aguacate con pimienta y cilantro si quieres. Úntalo sobre las tostadas.",
+    "Calienta el sartén con el aceite. Saltea el pimiento y las espinacas 1-2 minutos.",
+    "Agrega las 6 claras, sazona con pimienta y revuelve suave hasta que cuajen.",
+    "Sirve las claras junto al avo toast y acompaña con las fresas."
+   ],
+   "tip": "Exprime unas gotas de limón sobre el aguacate para frescura. Mantén el fuego medio-bajo para que las claras queden suaves."
+  },
+  "ajustes": "442 kcal/33 g para el rango de desayuno. Sustituí el jitomate crudo opcional por pimiento y espinaca salteados. Sin picante (solo pimienta). Sin cebolla, pescado ni camarón."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Pollo empanizado saludable",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo (cruda, en tiras)",
+    "cantidad": "130 g",
+    "kcal": 215,
+    "p": 40.7,
+    "c": 0,
+    "f": 4.9,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo (para rebozar)",
+    "cantidad": "2 piezas (66 g)",
+    "kcal": 35,
+    "p": 7.3,
+    "c": 0.5,
+    "f": 0.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Avena en hojuelas (molida, para empanizar)",
+    "cantidad": "1/4 taza (30 g)",
+    "kcal": 113,
+    "p": 4,
+    "c": 20,
+    "f": 2,
+    "fib": 3
+   },
+   {
+    "nombre": "Aceite de oliva (para sartén)",
+    "cantidad": "1/2 cda (7 ml)",
+    "kcal": 62,
+    "p": 0,
+    "c": 0,
+    "f": 7,
+    "fib": 0
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "1/4 de pieza (40 g)",
+    "kcal": 64,
+    "p": 0.8,
+    "c": 3.4,
+    "f": 5.9,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Brócoli al vapor",
+    "cantidad": "1 taza (120 g)",
+    "kcal": 41,
+    "p": 2.8,
+    "c": 8,
+    "f": 0.5,
+    "fib": 3.1
+   }
+  ],
+  "totales": {
+   "kcal": 530,
+   "p": 55.6,
+   "c": 31.9,
+   "f": 20.4,
+   "fib": 8.8
+  },
+  "receta": {
+   "tiempo_min": 20,
+   "dificultad": "fácil",
+   "pasos": [
+    "Corta la pechuga en tiras parejas.",
+    "Muele la avena en seco hasta dejarla tipo pan molido grueso.",
+    "Bate las claras con orégano, ajo en polvo y especias suaves al gusto.",
+    "Pasa cada tira por las claras y luego por la avena, presionando.",
+    "Calienta la 1/2 cucharada de aceite en un sartén a fuego medio.",
+    "Dora las tiras 3-4 min por lado hasta que queden crujientes y bien cocidas.",
+    "Cuece el brócoli al vapor 4-5 min.",
+    "Sirve el pollo con el brócoli y el aguacate a un lado."
+   ],
+   "tip": "Hornea las tiras a 200°C 15-18 min volteando a la mitad para usar menos aceite."
+  },
+  "ajustes": "Compatible de origen. 530 kcal con proteína altísima (56 g). Especias suaves por gastritis, picante moderado o ausente. Opción de hornear para bajar grasa."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Omelette",
+  "ingredientes": [
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "5 piezas (165 g)",
+    "kcal": 86,
+    "p": 18,
+    "c": 1.2,
+    "f": 0.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6.3,
+    "c": 0.4,
+    "f": 4.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Champiñones",
+    "cantidad": "60 g",
+    "kcal": 13,
+    "p": 1.9,
+    "c": 2,
+    "f": 0.2,
+    "fib": 0.6
+   },
+   {
+    "nombre": "Espinacas",
+    "cantidad": "40 g",
+    "kcal": 9,
+    "p": 1.1,
+    "c": 1.4,
+    "f": 0.2,
+    "fib": 0.9
+   },
+   {
+    "nombre": "Pimiento morrón",
+    "cantidad": "50 g",
+    "kcal": 16,
+    "p": 0.5,
+    "c": 3,
+    "f": 0.2,
+    "fib": 1.1
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "80 g (≈2/3 pieza chica)",
+    "kcal": 128,
+    "p": 1.6,
+    "c": 6.8,
+    "f": 11.8,
+    "fib": 5.4
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "5 ml (1 cdita)",
+    "kcal": 44,
+    "p": 0,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Tortilla de maíz",
+    "cantidad": "1 pieza (30 g)",
+    "kcal": 65,
+    "p": 1.7,
+    "c": 13.5,
+    "f": 0.8,
+    "fib": 1.5
+   }
+  ],
+  "totales": {
+   "kcal": 433,
+   "p": 31.1,
+   "c": 28.3,
+   "f": 23.3,
+   "fib": 10
+  },
+  "receta": {
+   "tiempo_min": 12,
+   "dificultad": "fácil",
+   "pasos": [
+    "Pica los champiñones y el pimiento; lava las espinacas.",
+    "Calienta el aceite y saltea champiñones y pimiento 3-4 min.",
+    "Agrega las espinacas y cocina 1 min más. Reserva el relleno.",
+    "Bate las 5 claras con el huevo entero y una pizca de sal.",
+    "Vierte el huevo en el sartén; cuando cuaje, coloca el relleno en la mitad.",
+    "Dobla el omelette, cocina 1 min más y sírvelo con el aguacate y la tortilla."
+   ],
+   "tip": "Tapa el sartén unos segundos al final para que cuaje parejo sin dorarse de más."
+  },
+  "ajustes": "433 kcal/31 g para el rango. Pimiento y champiñones cocidos/salteados; sin cebolla, jitomate crudo, pescado ni camarón. Picante nulo por gastritis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Picadillo con arroz",
+  "ingredientes": [
+   {
+    "nombre": "Carne molida de res 95/5 (cruda)",
+    "cantidad": "150 g",
+    "kcal": 167,
+    "p": 31,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Papa en cubitos",
+    "cantidad": "90 g",
+    "kcal": 70,
+    "p": 1.6,
+    "c": 16,
+    "f": 0.1,
+    "fib": 2.3
+   },
+   {
+    "nombre": "Zanahoria en cubitos",
+    "cantidad": "30 g",
+    "kcal": 12,
+    "p": 0.3,
+    "c": 2.8,
+    "f": 0.1,
+    "fib": 0.8
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "1 ml (escaso)",
+    "kcal": 9,
+    "p": 0,
+    "c": 0,
+    "f": 1,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de tomate natural sin azúcar",
+    "cantidad": "50 g",
+    "kcal": 18,
+    "p": 0.9,
+    "c": 4,
+    "f": 0.1,
+    "fib": 1
+   },
+   {
+    "nombre": "Ajo en polvo, sal de mar y pimienta",
+    "cantidad": "al gusto",
+    "kcal": 2,
+    "p": 0.1,
+    "c": 0.4,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "50 g (1/3 pieza)",
+    "kcal": 80,
+    "p": 1,
+    "c": 4.3,
+    "f": 7.3,
+    "fib": 3.4
+   },
+   {
+    "nombre": "Arroz integral cocido",
+    "cantidad": "98 g (1/2 taza)",
+    "kcal": 108,
+    "p": 2.5,
+    "c": 22.5,
+    "f": 0.9,
+    "fib": 1.8
+   },
+   {
+    "nombre": "Brócoli al vapor",
+    "cantidad": "90 g (1 taza)",
+    "kcal": 31,
+    "p": 2.6,
+    "c": 6,
+    "f": 0.3,
+    "fib": 2.4
+   }
+  ],
+  "totales": {
+   "kcal": 497,
+   "p": 40,
+   "c": 56,
+   "f": 14.3,
+   "fib": 11.8
+  },
+  "receta": {
+   "tiempo_min": 30,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece el arroz integral y deja el brócoli al vapor 5 minutos.",
+    "Calienta el aceite en un sartén a fuego medio.",
+    "Agrega la papa y la zanahoria en cubitos y sofríe 5-6 minutos.",
+    "Echa la carne molida y deshazla; cocina hasta que se dore.",
+    "Vierte la salsa de tomate sin azúcar y sazona con ajo en polvo, sal y pimienta.",
+    "Tapa y deja a fuego bajo 8-10 minutos hasta que la papa esté suave.",
+    "Sirve con el arroz, el brócoli al vapor y el aguacate."
+   ],
+   "tip": "Cocina doble base de picadillo y guarda porciones para meal prep. La salsa de tomate debe ser sin azúcar agregada."
+  },
+  "ajustes": "Quité la cebolla. Jitomate solo como salsa cocida sin azúcar. 497 kcal, dentro del rango de Comida. Sin picante; carne magra 95/5 por triglicéridos."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Sándwich de huevito con papa",
+  "ingredientes": [
+   {
+    "nombre": "Pan integral (rebanadas)",
+    "cantidad": "2 piezas (56 g)",
+    "kcal": 140,
+    "p": 6,
+    "c": 24,
+    "f": 2,
+    "fib": 4
+   },
+   {
+    "nombre": "Huevo cocido",
+    "cantidad": "2 piezas (100 g)",
+    "kcal": 143,
+    "p": 13,
+    "c": 1,
+    "f": 10,
+    "fib": 0
+   },
+   {
+    "nombre": "Mantequilla sin sal",
+    "cantidad": "5 g (1 cdita)",
+    "kcal": 36,
+    "p": 0,
+    "c": 0,
+    "f": 4,
+    "fib": 0
+   },
+   {
+    "nombre": "Papa cocida en cubitos",
+    "cantidad": "70 g",
+    "kcal": 54,
+    "p": 1,
+    "c": 12,
+    "f": 0,
+    "fib": 1.5
+   },
+   {
+    "nombre": "Espinaca fresca (opcional)",
+    "cantidad": "30 g (1 puño)",
+    "kcal": 7,
+    "p": 1,
+    "c": 1,
+    "f": 0,
+    "fib": 0.7
+   }
+  ],
+  "totales": {
+   "kcal": 380,
+   "p": 21,
+   "c": 38,
+   "f": 16,
+   "fib": 6.2
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece los huevos 10 min; pásalos a agua fría y pélalos.",
+    "Cuece la papa en cubitos 8-10 min hasta que esté suave; escurre.",
+    "Pica los huevos y mézclalos con la papa y la mantequilla; salpimienta ligero.",
+    "Tuesta las 2 rebanadas de pan integral.",
+    "Arma el sándwich con la mezcla; agrega espinacas si quieres más volumen.",
+    "Cierra, parte a la mitad y sirve."
+   ],
+   "tip": "Machaca papa y huevo juntos para que quede untable. Si queda seco, una cucharadita de yogur natural lo vuelve cremoso."
+  },
+  "ajustes": "Ya respetaba las reglas y cae en rango de cena (380 kcal, 21 g proteína). Sin cebolla, jitomate crudo, pescado ni camarón. Tip con yogur natural (no griego)."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Licuado crunchy de fresas",
+  "ingredientes": [
+   {
+    "nombre": "Fresas",
+    "cantidad": "120 g (aprox 8 fresas)",
+    "kcal": 38,
+    "p": 0.8,
+    "c": 9,
+    "f": 0.4,
+    "fib": 2.4
+   },
+   {
+    "nombre": "Frutos rojos mixtos (zarzamora/arándano)",
+    "cantidad": "50 g",
+    "kcal": 28,
+    "p": 0.5,
+    "c": 7,
+    "f": 0.2,
+    "fib": 2.5
+   },
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "30 g (1/3 taza)",
+    "kcal": 117,
+    "p": 4,
+    "c": 20,
+    "f": 2.4,
+    "fib": 3
+   },
+   {
+    "nombre": "Proteína en polvo (OPCIONAL; ver tip)",
+    "cantidad": "1 scoop (33 g)",
+    "kcal": 124,
+    "p": 24,
+    "c": 3,
+    "f": 1.5,
+    "fib": 1
+   },
+   {
+    "nombre": "Leche light",
+    "cantidad": "250 ml (1 taza)",
+    "kcal": 105,
+    "p": 8.5,
+    "c": 12.5,
+    "f": 2.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Granola",
+    "cantidad": "30 g",
+    "kcal": 135,
+    "p": 3.4,
+    "c": 20.6,
+    "f": 4.3,
+    "fib": 2.6
+   }
+  ],
+  "totales": {
+   "kcal": 547,
+   "p": 41.2,
+   "c": 72.1,
+   "f": 11.3,
+   "fib": 11.5
+  },
+  "receta": {
+   "tiempo_min": 7,
+   "dificultad": "fácil",
+   "pasos": [
+    "Lava bien las fresas y los frutos rojos.",
+    "Pon en la licuadora las fresas, los frutos rojos, la avena, la proteína (si la usas) y la leche light.",
+    "Licúa 30-40 segundos hasta que quede terso y cremoso.",
+    "Sirve en un vaso y encima agrega la granola; revuelve un poco para el crunch.",
+    "Toma de inmediato para que la granola siga crujiente."
+   ],
+   "tip": "Sin proteína en polvo: licúa 4 claras pasteurizadas o agrega 3/4 taza (185 g) de yogur natural. La granola siempre va al final, encima, no licuada."
+  },
+  "ajustes": "Bajé granola a 30 g para ajustar de 570 a ~547 kcal. Proteína en polvo OPCIONAL con alternativa de claras o yogur natural. Sin constraints aplicables; apta para gastritis/colitis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Enchiladas suizas",
+  "ingredientes": [
+   {
+    "nombre": "Tortillas de maíz",
+    "cantidad": "3 piezas (90 g)",
+    "kcal": 195,
+    "p": 5,
+    "c": 40,
+    "f": 2,
+    "fib": 5
+   },
+   {
+    "nombre": "Pechuga de pollo cocida y deshebrada",
+    "cantidad": "100 g",
+    "kcal": 165,
+    "p": 31,
+    "c": 0,
+    "f": 3.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Queso oaxaca",
+    "cantidad": "25 g",
+    "kcal": 71,
+    "p": 5,
+    "c": 0.6,
+    "f": 5.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Yogur natural",
+    "cantidad": "60 g (1/4 taza)",
+    "kcal": 37,
+    "p": 3,
+    "c": 4.5,
+    "f": 0.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Caldo de pollo",
+    "cantidad": "160 ml (2/3 taza)",
+    "kcal": 12,
+    "p": 1,
+    "c": 1,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "40 g (1/3 chico)",
+    "kcal": 64,
+    "p": 0.8,
+    "c": 3.4,
+    "f": 5.9,
+    "fib": 2.7
+   },
+   {
+    "nombre": "Espinacas",
+    "cantidad": "40 g (2 puños)",
+    "kcal": 9,
+    "p": 1.1,
+    "c": 1.4,
+    "f": 0.2,
+    "fib": 0.9
+   }
+  ],
+  "totales": {
+   "kcal": 553,
+   "p": 46.9,
+   "c": 52.9,
+   "f": 18.1,
+   "fib": 11.5
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Para la salsa: licúa el yogur natural, el caldo de pollo, el aguacate, las espinacas, ajo en polvo, sal y pimienta hasta que quede tersa.",
+    "Calienta las tortillas en un comal hasta que estén flexibles.",
+    "Rellena cada tortilla con el pollo deshebrado y enróllalas.",
+    "Acomódalas en un refractario y báñalas con la salsa verde.",
+    "Reparte el queso oaxaca encima y gratina hasta que se funda.",
+    "Sirve caliente."
+   ],
+   "tip": "La salsa lleva yogur, así que NO la hiervas: caliéntala suave o solo gratina el queso encima para que no se corte."
+  },
+  "ajustes": "Cambié 'yogurt griego' por yogur natural. QUITÉ el jalapeño (la salsa picosa) para dejarla SIN picante por la gastritis. Quité los frijoles y bajé queso y pollo para ajustar de 699 a 553 kcal, más cerca del rango de Comida. Sin cebolla, pescado ni camarón."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Huevito con camote",
+  "ingredientes": [
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6.3,
+    "c": 0.4,
+    "f": 4.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "1/2 taza (120 g)",
+    "kcal": 62,
+    "p": 13,
+    "c": 0.9,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Camote hervido en cuadritos",
+    "cantidad": "1.5 tazas (195 g)",
+    "kcal": 169,
+    "p": 3,
+    "c": 39,
+    "f": 0.3,
+    "fib": 5.8
+   },
+   {
+    "nombre": "Aceite de oliva (para el sartén)",
+    "cantidad": "1 cdita (5 ml)",
+    "kcal": 40,
+    "p": 0,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 343,
+   "p": 22.3,
+   "c": 40.3,
+   "f": 9.8,
+   "fib": 5.8
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Pela el camote y córtalo en cuadritos. Hiérvelo en agua con sal 10 min. Escurre.",
+    "Bate el huevo entero con las claras y salpimienta.",
+    "Calienta el aceite en un sartén antiadherente a fuego medio.",
+    "Vierte el huevo con las claras y revuelve suave hasta que cuajen, sin dorar de más.",
+    "Sirve el huevo junto al camote tibio. Espolvorea una pizca de paprika muy ligera si quieres."
+   ],
+   "tip": "El camote tibio queda más cremoso. Una pizca de canela le da dulzor sin azúcar y es amigable con el estómago."
+  },
+  "ajustes": "343 kcal/22 g, dentro del rango de Cena. Sin cebolla, jitomate, pescado ni camarón. Picante moderado opcional; huevo sin dorar de más por gastritis."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Pollo con verduras",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo (cocida a la plancha)",
+    "cantidad": "130 g",
+    "kcal": 215,
+    "p": 40,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Ejotes",
+    "cantidad": "60 g",
+    "kcal": 19,
+    "p": 1,
+    "c": 4,
+    "f": 0,
+    "fib": 2
+   },
+   {
+    "nombre": "Brócoli",
+    "cantidad": "80 g",
+    "kcal": 27,
+    "p": 2,
+    "c": 5,
+    "f": 0,
+    "fib": 2
+   },
+   {
+    "nombre": "Calabacita",
+    "cantidad": "80 g",
+    "kcal": 14,
+    "p": 1,
+    "c": 3,
+    "f": 0,
+    "fib": 1
+   },
+   {
+    "nombre": "Champiñones",
+    "cantidad": "60 g",
+    "kcal": 13,
+    "p": 2,
+    "c": 2,
+    "f": 0,
+    "fib": 1
+   },
+   {
+    "nombre": "Espinaca",
+    "cantidad": "40 g",
+    "kcal": 9,
+    "p": 1,
+    "c": 1,
+    "f": 0,
+    "fib": 1
+   },
+   {
+    "nombre": "Aguacate (1/3 de pieza)",
+    "cantidad": "45 g",
+    "kcal": 72,
+    "p": 1,
+    "c": 4,
+    "f": 7,
+    "fib": 3
+   },
+   {
+    "nombre": "Salsa verde casera + limón",
+    "cantidad": "30 g",
+    "kcal": 11,
+    "p": 0,
+    "c": 2,
+    "f": 0,
+    "fib": 1
+   }
+  ],
+  "totales": {
+   "kcal": 380,
+   "p": 48,
+   "c": 21,
+   "f": 19,
+   "fib": 11
+  },
+  "receta": {
+   "tiempo_min": 20,
+   "dificultad": "fácil",
+   "pasos": [
+    "Sazona la pechuga con sal, pimienta y limón. Cocínala a la plancha 5-6 min por lado. Deja reposar y rebana.",
+    "Lava y corta los ejotes, brócoli, calabacita y champiñones.",
+    "Saltea las verduras (menos la espinaca) con un chorrito de agua o spray 6-8 min al dente.",
+    "Agrega la espinaca al final y revuelve 1 min.",
+    "Sirve el pollo sobre las verduras, acomoda el aguacate y baña con salsa verde y limón."
+   ],
+   "tip": "Cocina las verduras al dente para que no irriten la gastritis; la salsa verde casera suave da sabor sin pasarte de picante."
+  },
+  "ajustes": "Escalé a 380 kcal/48 g para el rango de cena. Sin cebolla; salsa verde casera + limón con picante moderado. Sin jitomate crudo, pescado ni camarón. Cocción al dente por gastritis/colitis."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Roles de canela",
+  "ingredientes": [
+   {
+    "nombre": "Pan integral (rebanadas, sin orillas)",
+    "cantidad": "2 rebanadas (50 g)",
+    "kcal": 120,
+    "p": 6,
+    "c": 22,
+    "f": 1.6,
+    "fib": 3.3
+   },
+   {
+    "nombre": "Queso ricotta (para el relleno)",
+    "cantidad": "4 cdas (60 g)",
+    "kcal": 104,
+    "p": 6.4,
+    "c": 2,
+    "f": 7.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Miel de abeja (relleno + topping)",
+    "cantidad": "1.5 cdas (30 g)",
+    "kcal": 91,
+    "p": 0.1,
+    "c": 24.7,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo (para remojar tipo french toast)",
+    "cantidad": "3 claras (99 g)",
+    "kcal": 51,
+    "p": 10.8,
+    "c": 0.7,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Queso ricotta (para el topping)",
+    "cantidad": "2 cdas (30 g)",
+    "kcal": 52,
+    "p": 3.2,
+    "c": 1,
+    "f": 3.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Mantequilla sin sal o ghee (para el sartén)",
+    "cantidad": "1 cdita (5 g)",
+    "kcal": 36,
+    "p": 0,
+    "c": 0,
+    "f": 4,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche (un chorrito para aguadar el topping)",
+    "cantidad": "30 ml",
+    "kcal": 18,
+    "p": 1,
+    "c": 1.4,
+    "f": 1,
+    "fib": 0
+   },
+   {
+    "nombre": "Canela y vainilla",
+    "cantidad": "al gusto (2 g)",
+    "kcal": 5,
+    "p": 0.1,
+    "c": 1.3,
+    "f": 0.1,
+    "fib": 0.8
+   }
+  ],
+  "totales": {
+   "kcal": 477,
+   "p": 27.6,
+   "c": 53.1,
+   "f": 18.3,
+   "fib": 4.1
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "media",
+   "pasos": [
+    "Quita las orillas a 2 rebanadas de pan integral y aplánalas con el rodillo.",
+    "Mezcla 4 cucharadas de ricotta con 1 cucharada de miel y canela. Unta sobre las rebanadas y enróllalas apretado.",
+    "Corta cada rollo en 3 piezas tipo roles individuales.",
+    "Bate las 3 claras con canela y vainilla. Remoja cada rolito como french toast.",
+    "Calienta el sartén con 1 cucharadita de mantequilla o ghee y dora los rolitos por todos lados.",
+    "Para el topping mezcla 2 cucharadas de ricotta con un chorrito de leche y la 1/2 cucharada de miel restante.",
+    "Sirve los roles bañados con el topping y espolvorea más canela."
+   ],
+   "tip": "Enrolla el pan bien apretado y déjalo reposar 1-2 min antes de cortar. Usa endulzante sin calorías en lugar de parte de la miel si quieres bajar calorías."
+  },
+  "ajustes": "Bajé pan a 2 rebanadas y ricotta de relleno a 4 cdas para ajustar de 563 a ~477 kcal dentro del rango de desayuno. Cambié almendras por chorrito de leche. Sin cebolla, jitomate, pescado ni picante; proteína de claras y ricotta."
+ },
+ {
+  "slot": "Snacks",
+  "titulo": "Brownie fit",
+  "ingredientes": [
+   {
+    "nombre": "Dátiles sin hueso",
+    "cantidad": "40 g",
+    "kcal": 110,
+    "p": 1,
+    "c": 29,
+    "f": 0,
+    "fib": 3
+   },
+   {
+    "nombre": "Cocoa en polvo sin azúcar",
+    "cantidad": "15 g",
+    "kcal": 34,
+    "p": 3,
+    "c": 8,
+    "f": 2,
+    "fib": 5
+   },
+   {
+    "nombre": "Harina de coco",
+    "cantidad": "4 g",
+    "kcal": 17,
+    "p": 1,
+    "c": 2,
+    "f": 1,
+    "fib": 2
+   },
+   {
+    "nombre": "Avena",
+    "cantidad": "10 g",
+    "kcal": 38,
+    "p": 1,
+    "c": 7,
+    "f": 1,
+    "fib": 1
+   },
+   {
+    "nombre": "Ghee (mantequilla clarificada)",
+    "cantidad": "3.5 g",
+    "kcal": 31,
+    "p": 0,
+    "c": 0,
+    "f": 3,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "45 g",
+    "kcal": 23,
+    "p": 5,
+    "c": 0,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "10 g",
+    "kcal": 30,
+    "p": 0,
+    "c": 8,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 283,
+   "p": 11,
+   "c": 54,
+   "f": 7,
+   "fib": 11
+  },
+  "receta": {
+   "tiempo_min": 50,
+   "dificultad": "fácil",
+   "pasos": [
+    "Precalienta el horno a 180°C y forra un molde pequeño con papel encerado.",
+    "Licúa los dátiles con 1/4 de taza de agua caliente hasta una pasta lisa.",
+    "Agrega cocoa, harina de coco, avena, ghee, claras, vainilla y miel; licúa hasta integrar.",
+    "Vierte la mezcla en el molde y empareja.",
+    "Hornea 40 minutos o hasta que un palillo salga apenas húmedo.",
+    "Deja enfriar, desmolda y corta. Tu porción es 1 brownie y medio."
+   ],
+   "tip": "Hornea la tanda completa (6 brownies) y congela en porciones; saca uno y medio cuando se te antoje algo dulce."
+  },
+  "ajustes": "Porción de 1.5 brownies (~283 kcal). Sin cebolla, jitomate, pescado, camarón ni picante. Proteína de claras. Las kcal cuadran considerando la fibra no digerible de cocoa/dátiles que infla el carbohidrato bruto."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Pasta boloñesa cremosa y parmesano",
+  "ingredientes": [
+   {
+    "nombre": "Carne molida de res 95/5 (cruda)",
+    "cantidad": "130 g",
+    "kcal": 145,
+    "p": 26,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de tomate natural cocida (jitomate licuado y cocido)",
+    "cantidad": "80 g",
+    "kcal": 24,
+    "p": 1.2,
+    "c": 5.2,
+    "f": 0.2,
+    "fib": 1.2
+   },
+   {
+    "nombre": "Ajo picado",
+    "cantidad": "5 g (1 diente)",
+    "kcal": 7,
+    "p": 0.3,
+    "c": 1.5,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Yogur natural sin azúcar",
+    "cantidad": "60 g (1/4 taza)",
+    "kcal": 37,
+    "p": 3.2,
+    "c": 2.8,
+    "f": 1.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Pasta penne integral cocida",
+    "cantidad": "140 g (1 taza)",
+    "kcal": 174,
+    "p": 7.5,
+    "c": 37,
+    "f": 1.1,
+    "fib": 4.8
+   },
+   {
+    "nombre": "Verduras al gusto: calabaza, champiñones y brócoli",
+    "cantidad": "150 g (1 taza)",
+    "kcal": 38,
+    "p": 3,
+    "c": 7,
+    "f": 0.4,
+    "fib": 3
+   },
+   {
+    "nombre": "Queso parmesano rallado",
+    "cantidad": "14 g (2 cucharadas)",
+    "kcal": 60,
+    "p": 5.4,
+    "c": 0.5,
+    "f": 4,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 485,
+   "p": 46.6,
+   "c": 54,
+   "f": 11.4,
+   "fib": 9.1
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve agua con sal y cuece la pasta penne integral al dente. Escurre y reserva.",
+    "Dora el ajo unos segundos, agrega la carne molida y cocínala desmenuzándola hasta que pierda el color rosado.",
+    "Incorpora la salsa de tomate cocida, salpimienta con sal y pimienta y deja sazonar 5 minutos a fuego bajo.",
+    "Saltea la calabaza, los champiñones y el brócoli hasta que estén tiernos pero firmes.",
+    "Apaga el fuego e integra el yogur natural a la carne para dar el toque cremoso.",
+    "Mezcla la pasta y las verduras con la boloñesa, sirve y termina con el queso parmesano."
+   ],
+   "tip": "Agrega el yogur SIEMPRE con el fuego apagado para que no se corte. Usa carne 95/5 y modera el parmesano si te pesa la grasa."
+  },
+  "ajustes": "Cambié 'yogur griego' por yogur natural sin azúcar. Jitomate solo cocido en salsa. Sin cebolla; picante moderado (solo pimienta y sal). 485 kcal con 47 g de proteína, en el rango de Comida."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Pollo con quinoa",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo",
+    "cantidad": "120 g",
+    "kcal": 198,
+    "p": 37.2,
+    "c": 0,
+    "f": 4.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Quinoa cocida",
+    "cantidad": "90 g (1/2 taza cocida)",
+    "kcal": 108,
+    "p": 4,
+    "c": 19,
+    "f": 1.8,
+    "fib": 2.5
+   },
+   {
+    "nombre": "Calabacita y brócoli salteados",
+    "cantidad": "150 g (1 taza)",
+    "kcal": 42,
+    "p": 3,
+    "c": 7,
+    "f": 0.5,
+    "fib": 3
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "45 g (1/3 de pieza)",
+    "kcal": 72,
+    "p": 0.9,
+    "c": 3.8,
+    "f": 6.6,
+    "fib": 3.1
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "5 ml (1 cdita)",
+    "kcal": 40,
+    "p": 0,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 460,
+   "p": 45.1,
+   "c": 29.8,
+   "f": 17.7,
+   "fib": 8.6
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Enjuaga la quinoa cruda y cuécela en doble volumen de agua 15 min; escurre. O usa 90 g ya cocida.",
+    "Salpimienta el pollo. Cocínalo con media cdita de aceite a fuego medio 5-6 min por lado. Deja reposar y rebana.",
+    "En el mismo sartén saltea la calabacita y el brócoli con la otra media cdita de aceite 4-5 min con sal y pimienta.",
+    "Sirve la quinoa de base, encima el pollo y las verduras. Acompaña con el aguacate.",
+    "Exprime un poco de limón si quieres un toque ácido."
+   ],
+   "tip": "Cocina el pollo a fuego medio y deja reposar 3 min antes de rebanar. La quinoa la puedes cocer para toda la semana."
+  },
+  "ajustes": "Cambié las tostadas por quinoa para que el platillo sea fiel al título. Bajé pollo a 120 g y aguacate a 45 g para acercar al rango de Cena (460 kcal). Sin cebolla, jitomate crudo, pescado ni camarón; picante ausente por gastritis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Ensalada de pollo con nuez",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo cocida y deshebrada",
+    "cantidad": "130 g",
+    "kcal": 215,
+    "p": 40.3,
+    "c": 0,
+    "f": 4.7,
+    "fib": 0
+   },
+   {
+    "nombre": "Yogur natural sin azúcar",
+    "cantidad": "1 cda (15 g)",
+    "kcal": 9,
+    "p": 0.9,
+    "c": 0.7,
+    "f": 0.4,
+    "fib": 0
+   },
+   {
+    "nombre": "Mayonesa light",
+    "cantidad": "1 cda (15 g)",
+    "kcal": 50,
+    "p": 0.1,
+    "c": 1,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Mostaza",
+    "cantidad": "1 cdita (5 g)",
+    "kcal": 3,
+    "p": 0.2,
+    "c": 0.3,
+    "f": 0.2,
+    "fib": 0.2
+   },
+   {
+    "nombre": "Jugo de limón",
+    "cantidad": "1 cda (15 ml)",
+    "kcal": 4,
+    "p": 0,
+    "c": 1.3,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Uvas verdes partidas",
+    "cantidad": "5 piezas (40 g)",
+    "kcal": 27,
+    "p": 0.3,
+    "c": 7,
+    "f": 0.1,
+    "fib": 0.4
+   },
+   {
+    "nombre": "Nueces",
+    "cantidad": "10 mitades (15 g)",
+    "kcal": 98,
+    "p": 2.3,
+    "c": 2,
+    "f": 9.8,
+    "fib": 1
+   },
+   {
+    "nombre": "Apio picado",
+    "cantidad": "1 varita (40 g)",
+    "kcal": 6,
+    "p": 0.3,
+    "c": 1.2,
+    "f": 0.1,
+    "fib": 0.6
+   },
+   {
+    "nombre": "Manzana en cuadritos",
+    "cantidad": "1/2 pieza (90 g)",
+    "kcal": 47,
+    "p": 0.2,
+    "c": 12.5,
+    "f": 0.2,
+    "fib": 2.2
+   },
+   {
+    "nombre": "Tostadas horneadas tipo Susalia",
+    "cantidad": "2 piezas (22 g)",
+    "kcal": 85,
+    "p": 2,
+    "c": 16,
+    "f": 1.4,
+    "fib": 1.2
+   }
+  ],
+  "totales": {
+   "kcal": 544,
+   "p": 46.6,
+   "c": 42,
+   "f": 21.9,
+   "fib": 5.7
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Cuece la pechuga en agua con sal y pimienta 12 min. Déjala enfriar y deshébrala.",
+    "Mezcla el yogur natural, la mayonesa light, la mostaza y el jugo de limón. Salpimienta.",
+    "Incorpora el pollo deshebrado y revuelve.",
+    "Agrega las uvas, las nueces troceadas, el apio y la manzana. Mezcla con cuidado.",
+    "Sirve con las 2 tostadas. Arma cada tostada al momento."
+   ],
+   "tip": "Para bajar grasa y subir saciedad, cambia 5 nueces por almendras y suma hojas verdes. La manzana y el limón dan frescura sin picante."
+  },
+  "ajustes": "Cambié 'yogurt griego' por yogur natural. Bajé pollo a 130 g y tostadas a 2 piezas para ajustar de 619 a ~544 kcal, más cerca del rango de Comida. Sin cebolla, jitomate crudo, pescado ni camarón; mostaza moderada."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Almond & coco overnight oats",
+  "ingredientes": [
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "40 g",
+    "kcal": 152,
+    "p": 5.2,
+    "c": 26.4,
+    "f": 2.8,
+    "fib": 4
+   },
+   {
+    "nombre": "Yogur natural sin azúcar",
+    "cantidad": "150 g",
+    "kcal": 95,
+    "p": 9,
+    "c": 7,
+    "f": 3.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche de coco (light, en lata)",
+    "cantidad": "80 ml",
+    "kcal": 57,
+    "p": 0.5,
+    "c": 1.3,
+    "f": 5.6,
+    "fib": 0
+   },
+   {
+    "nombre": "Proteína en polvo vainilla (OPCIONAL)",
+    "cantidad": "1 scoop (30 g)",
+    "kcal": 115,
+    "p": 24,
+    "c": 3,
+    "f": 1.5,
+    "fib": 0.5
+   },
+   {
+    "nombre": "Mantequilla de almendras",
+    "cantidad": "8 g (1/2 cda)",
+    "kcal": 50,
+    "p": 1.7,
+    "c": 1.7,
+    "f": 4.4,
+    "fib": 0.8
+   },
+   {
+    "nombre": "Fresas (o berries)",
+    "cantidad": "80 g",
+    "kcal": 26,
+    "p": 0.5,
+    "c": 6,
+    "f": 0.2,
+    "fib": 1.6
+   }
+  ],
+  "totales": {
+   "kcal": 495,
+   "p": 40.9,
+   "c": 45.4,
+   "f": 18,
+   "fib": 6.9
+  },
+  "receta": {
+   "tiempo_min": 7,
+   "dificultad": "fácil",
+   "pasos": [
+    "La noche anterior, disuelve el scoop de proteína (si lo usas) en la leche de coco light.",
+    "Agrega la avena y el yogur natural; revuelve muy bien.",
+    "Incorpora la mantequilla de almendras y vuelve a mezclar.",
+    "Tapa y deja reposar toda la noche en el refri.",
+    "Por la mañana añade las fresas picadas encima.",
+    "Si lo quieres menos espeso, agrega un chorrito más de leche."
+   ],
+   "tip": "Sin proteína en polvo: sube el yogur natural a 250 g (o usa 3 claras cocidas aparte). Prepáralo en frasco de vidrio: aguanta hasta 2 días."
+  },
+  "ajustes": "Cambié 'yogurt griego' por yogur natural; proteína en polvo OPCIONAL. Quité las almendras enteras y bajé avena y leche de coco para ajustar de 631 a ~495 kcal dentro del rango de desayuno. Sin constraints aplicables; apta para gastritis/colitis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Milanesa de res con puré",
+  "ingredientes": [
+   {
+    "nombre": "Milanesa de res (pulpa negra, magra)",
+    "cantidad": "150 g",
+    "kcal": 255,
+    "p": 40,
+    "c": 0,
+    "f": 10,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa Maggi",
+    "cantidad": "5 ml",
+    "kcal": 3,
+    "p": 0,
+    "c": 0.6,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de soya baja en sodio",
+    "cantidad": "5 ml",
+    "kcal": 4,
+    "p": 0.5,
+    "c": 0.4,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Jugo de limón",
+    "cantidad": "10 ml",
+    "kcal": 2,
+    "p": 0,
+    "c": 0.7,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Betabel cocido",
+    "cantidad": "60 g (1/2 pieza)",
+    "kcal": 26,
+    "p": 1,
+    "c": 6,
+    "f": 0,
+    "fib": 1.7
+   },
+   {
+    "nombre": "Papa hervida",
+    "cantidad": "150 g (1 mediana)",
+    "kcal": 116,
+    "p": 3,
+    "c": 26,
+    "f": 0,
+    "fib": 2.3
+   },
+   {
+    "nombre": "Mantequilla o ghee",
+    "cantidad": "7 g (1/2 cda)",
+    "kcal": 50,
+    "p": 0,
+    "c": 0,
+    "f": 5.7,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche de almendras sin endulzar",
+    "cantidad": "30 ml (chorrito)",
+    "kcal": 5,
+    "p": 0.2,
+    "c": 0.3,
+    "f": 0.4,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 461,
+   "p": 44.7,
+   "c": 40,
+   "f": 21.8,
+   "fib": 6
+  },
+  "receta": {
+   "tiempo_min": 30,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve la papa con cáscara 15-18 min hasta que esté suave. Cuece el betabel si no lo tienes ya cocido.",
+    "Sazona la milanesa con la salsa Maggi, la soya baja en sodio, el jugo de limón y pimienta.",
+    "Calienta un sartén a fuego medio-alto y cocina la milanesa 2-3 min por lado. Reserva.",
+    "Pela la papa y machácala con mantequilla o ghee, el chorrito de leche de almendras, sal y pimienta.",
+    "Rebana el betabel cocido. Sirve la milanesa con el puré y el betabel."
+   ],
+   "tip": "Para bajar grasa sin perder cremosidad, usa la mitad del ghee y suma otro chorrito de leche de almendras."
+  },
+  "ajustes": "Ya respetaba las reglas (sin cebolla, jitomate crudo, pescado/camarón ni picante). 461 kcal/45 g, en el rango de Comida. Detallé cantidades del marinado con porciones pequeñas por el sodio (gastritis)."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Huevito con frijoles",
+  "ingredientes": [
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6.3,
+    "c": 0.4,
+    "f": 4.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "3 claras (99 g)",
+    "kcal": 51,
+    "p": 10.8,
+    "c": 0.7,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Frijoles negros cocidos",
+    "cantidad": "1/2 taza (86 g)",
+    "kcal": 98,
+    "p": 6.5,
+    "c": 17.6,
+    "f": 0.4,
+    "fib": 6.5
+   },
+   {
+    "nombre": "Pan integral (Sara Lee / Nature's Own)",
+    "cantidad": "1 rebanada (28 g)",
+    "kcal": 70,
+    "p": 4,
+    "c": 12,
+    "f": 1,
+    "fib": 3
+   },
+   {
+    "nombre": "Tortilla de maíz",
+    "cantidad": "1 pieza (30 g)",
+    "kcal": 65,
+    "p": 1.7,
+    "c": 13.5,
+    "f": 0.8,
+    "fib": 1.8
+   },
+   {
+    "nombre": "Mantequilla sin sal",
+    "cantidad": "5 g",
+    "kcal": 36,
+    "p": 0,
+    "c": 0,
+    "f": 4.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Espinaca",
+    "cantidad": "1 taza (30 g)",
+    "kcal": 7,
+    "p": 0.9,
+    "c": 1.1,
+    "f": 0.1,
+    "fib": 0.7
+   },
+   {
+    "nombre": "Champiñones rebanados",
+    "cantidad": "1/2 taza (45 g)",
+    "kcal": 10,
+    "p": 1.4,
+    "c": 1.5,
+    "f": 0.2,
+    "fib": 0.5
+   }
+  ],
+  "totales": {
+   "kcal": 409,
+   "p": 31.6,
+   "c": 46.8,
+   "f": 11.6,
+   "fib": 13
+  },
+  "receta": {
+   "tiempo_min": 12,
+   "dificultad": "fácil",
+   "pasos": [
+    "Calienta el sartén a fuego medio con la mantequilla sin sal.",
+    "Saltea los champiñones y la espinaca 2-3 min.",
+    "Bate el huevo entero con las 3 claras, sazona y revuélvelo con las verduras hasta cuajar.",
+    "Calienta los frijoles negros y machácalos un poco; salpimienta sin picante fuerte.",
+    "Tuesta el pan y calienta la tortilla en comal.",
+    "Sirve el huevo con los frijoles, el pan y la tortilla. Acompaña con salsa verde casera si quieres."
+   ],
+   "tip": "Cuece los frijoles con anticipación y guárdalos en porciones. Las verduras son libres: súbele el volumen sin sumar casi calorías."
+  },
+  "ajustes": "Quité cebolla y jitomate crudo de las verduras 'libres'; dejé espinaca y champiñones. 409 kcal/31 g. Sustituí Tortiregias por 1 tortilla de maíz. Picante moderado y mantequilla sin sal por gastritis."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Tofu spicy con papas al horno y lentejas",
+  "ingredientes": [
+   {
+    "nombre": "Tofu extra firme (en cuadritos)",
+    "cantidad": "140 g",
+    "kcal": 162,
+    "p": 16.8,
+    "c": 4.2,
+    "f": 9,
+    "fib": 1.3
+   },
+   {
+    "nombre": "Lentejas cocidas",
+    "cantidad": "80 g (aprox. 1/3 taza)",
+    "kcal": 93,
+    "p": 7.2,
+    "c": 16,
+    "f": 0.3,
+    "fib": 6.3
+   },
+   {
+    "nombre": "Papa al horno en tiras",
+    "cantidad": "90 g (media papa equivalente)",
+    "kcal": 78,
+    "p": 1.8,
+    "c": 18,
+    "f": 0.1,
+    "fib": 1.9
+   },
+   {
+    "nombre": "Mayonesa",
+    "cantidad": "10 g (2 cdtas)",
+    "kcal": 68,
+    "p": 0.1,
+    "c": 0.1,
+    "f": 7.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Yogur natural",
+    "cantidad": "30 g (2 cdas)",
+    "kcal": 18,
+    "p": 1.8,
+    "c": 2,
+    "f": 0.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa macha (aceite de oliva + chile de árbol)",
+    "cantidad": "5 g (1 cdta, picante moderado)",
+    "kcal": 42,
+    "p": 0.3,
+    "c": 0.8,
+    "f": 4.3,
+    "fib": 0.5
+   },
+   {
+    "nombre": "Aceite de oliva (para las papas)",
+    "cantidad": "4 ml (1 cdta)",
+    "kcal": 35,
+    "p": 0,
+    "c": 0,
+    "f": 4,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de soya baja en sodio",
+    "cantidad": "8 ml (al gusto)",
+    "kcal": 5,
+    "p": 0.8,
+    "c": 0.5,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 501,
+   "p": 28.8,
+   "c": 41.6,
+   "f": 25.7,
+   "fib": 10
+  },
+  "receta": {
+   "tiempo_min": 45,
+   "dificultad": "media",
+   "pasos": [
+    "Precalienta el horno a 220°C. Corta la papa en tiras gruesas, revuélvelas con el aceite, sal y pimienta.",
+    "Hornea las papas 30-40 min, volteándolas a la mitad.",
+    "Escurre bien el tofu y pártelo en cuadritos.",
+    "Dora el tofu con la cucharadita de salsa macha hasta que se vea café en las orillas (picante moderado).",
+    "Mezcla la mayonesa, el yogur natural, la soya baja en sodio y pimienta para la salsita.",
+    "Cuando el tofu esté dorado, retíralo y revuélvelo con la salsita.",
+    "Calienta las lentejas y sírvelas junto con media papa al horno y el tofu spicy."
+   ],
+   "tip": "Prensa el tofu 10 min con un peso antes de cortarlo: suelta agua y dora mejor."
+  },
+  "ajustes": "Cambié 'yogurt griego' por yogur natural. Salsa macha en 1 cucharadita para picante moderado (gastritis). Sin cebolla, jitomate crudo, pescado ni camarón. 501 kcal en el rango de Comida."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Caldo tlalpeño",
+  "ingredientes": [
+   {
+    "nombre": "Pechuga de pollo (cruda, luego deshebrada)",
+    "cantidad": "120 g",
+    "kcal": 149,
+    "p": 28,
+    "c": 0,
+    "f": 3.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Papa, en cubos",
+    "cantidad": "75 g (1/2 papa mediana)",
+    "kcal": 58,
+    "p": 1.5,
+    "c": 13,
+    "f": 0.1,
+    "fib": 1.7
+   },
+   {
+    "nombre": "Calabacita, en medias lunas",
+    "cantidad": "80 g",
+    "kcal": 13,
+    "p": 1,
+    "c": 2.5,
+    "f": 0.2,
+    "fib": 0.9
+   },
+   {
+    "nombre": "Zanahoria, en rodajas",
+    "cantidad": "60 g",
+    "kcal": 25,
+    "p": 0.6,
+    "c": 5.8,
+    "f": 0.1,
+    "fib": 1.7
+   },
+   {
+    "nombre": "Arroz cocido",
+    "cantidad": "90 g (1/2 taza)",
+    "kcal": 117,
+    "p": 2.4,
+    "c": 25,
+    "f": 0.3,
+    "fib": 0.4
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "50 g (1/3 de pieza)",
+    "kcal": 80,
+    "p": 1,
+    "c": 4.3,
+    "f": 7.3,
+    "fib": 3.4
+   },
+   {
+    "nombre": "Ajo en polvo, sal",
+    "cantidad": "al gusto",
+    "kcal": 3,
+    "p": 0.2,
+    "c": 0.6,
+    "f": 0,
+    "fib": 0.1
+   }
+  ],
+  "totales": {
+   "kcal": 445,
+   "p": 34.7,
+   "c": 51.2,
+   "f": 11.2,
+   "fib": 8.2
+  },
+  "receta": {
+   "tiempo_min": 35,
+   "dificultad": "fácil",
+   "pasos": [
+    "En una olla con 1.5 L de agua hierve la pechuga junto con la papa en cubos. Tapa y cuece 20 minutos.",
+    "Saca el pollo, deshébralo y regrésalo a la olla.",
+    "Agrega la calabacita y la zanahoria. Cocina 8-10 minutos más.",
+    "Sazona con sal y ajo en polvo. Para el toque tlalpeño, agrega 1/2 chile chipotle de lata bien picado (opcional, suave por la gastritis).",
+    "Sirve el caldo caliente con el arroz cocido y corona con el aguacate al momento de servir."
+   ],
+   "tip": "Cuela el caldo del pollo y guárdalo: es caldito natural para recalentar al día siguiente. Exprime gotas de limón al servir."
+  },
+  "ajustes": "Quité la cebolla de las verduras. Ya cae en rango (445 kcal). Chipotle OPCIONAL y moderado por gastritis. Sin pescado, camarón ni jitomate crudo."
+ },
+ {
+  "slot": "Comida",
+  "titulo": "Tacos de picadillo",
+  "ingredientes": [
+   {
+    "nombre": "Carne molida de res 95/5 (cruda)",
+    "cantidad": "140 g",
+    "kcal": 233,
+    "p": 29,
+    "c": 0,
+    "f": 11.7,
+    "fib": 0
+   },
+   {
+    "nombre": "Papa en cubitos",
+    "cantidad": "75 g",
+    "kcal": 58,
+    "p": 1.5,
+    "c": 13,
+    "f": 0.1,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Zanahoria en cubitos",
+    "cantidad": "15 g",
+    "kcal": 6,
+    "p": 0.1,
+    "c": 1.4,
+    "f": 0,
+    "fib": 0.4
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "2 ml (1/2 cdita)",
+    "kcal": 18,
+    "p": 0,
+    "c": 0,
+    "f": 2,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa de tomate natural sin azúcar",
+    "cantidad": "50 g",
+    "kcal": 19,
+    "p": 0.9,
+    "c": 4,
+    "f": 0.1,
+    "fib": 1
+   },
+   {
+    "nombre": "Aguacate",
+    "cantidad": "50 g (1/3 de pieza)",
+    "kcal": 80,
+    "p": 1,
+    "c": 4.3,
+    "f": 7.3,
+    "fib": 3.3
+   },
+   {
+    "nombre": "Tortillas de maíz",
+    "cantidad": "2 piezas (52 g)",
+    "kcal": 112,
+    "p": 2.9,
+    "c": 23,
+    "f": 1.4,
+    "fib": 3
+   }
+  ],
+  "totales": {
+   "kcal": 526,
+   "p": 35.4,
+   "c": 45.7,
+   "f": 22.6,
+   "fib": 9.3
+  },
+  "receta": {
+   "tiempo_min": 25,
+   "dificultad": "fácil",
+   "pasos": [
+    "Calienta el aceite en un sartén a fuego medio.",
+    "Agrega la papa y la zanahoria y sofríe 5-6 min.",
+    "Suma la carne molida y deshazla; cocina hasta que dore, 6-8 min.",
+    "Vierte la salsa de tomate natural y sazona con sal, ajo en polvo y pimienta (picante suave).",
+    "Tapa y deja a fuego bajo 5 min hasta que la papa esté tierna.",
+    "Calienta las 2 tortillas en comal, arma los tacos y corona con el aguacate."
+   ],
+   "tip": "El picadillo rinde para 4 porciones; guarda el resto en refri hasta 3 días. La porción de aquí es 1/4 del total."
+  },
+  "ajustes": "Quité la cebolla del sofrito; sabor con ajo en polvo, sal y pimienta. Jitomate solo cocido en salsa. 526 kcal en el rango de Comida. Picante moderado por gastritis."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Espagueti de calabacita",
+  "ingredientes": [
+   {
+    "nombre": "Calabacita (en espagueti)",
+    "cantidad": "180 g",
+    "kcal": 31,
+    "p": 2.2,
+    "c": 5.6,
+    "f": 0.4,
+    "fib": 1.8
+   },
+   {
+    "nombre": "Pechuga de pollo cocida",
+    "cantidad": "120 g",
+    "kcal": 198,
+    "p": 37.2,
+    "c": 0,
+    "f": 4.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Champiñones",
+    "cantidad": "80 g",
+    "kcal": 18,
+    "p": 2.5,
+    "c": 2.6,
+    "f": 0.3,
+    "fib": 0.8
+   },
+   {
+    "nombre": "Salsa de tomate natural (cocida, sin azúcar)",
+    "cantidad": "80 g",
+    "kcal": 26,
+    "p": 1.2,
+    "c": 5.4,
+    "f": 0.2,
+    "fib": 1.4
+   },
+   {
+    "nombre": "Queso parmesano rallado",
+    "cantidad": "15 g",
+    "kcal": 59,
+    "p": 5.3,
+    "c": 0.6,
+    "f": 3.9,
+    "fib": 0
+   },
+   {
+    "nombre": "Aceite de oliva",
+    "cantidad": "5 ml",
+    "kcal": 44,
+    "p": 0,
+    "c": 0,
+    "f": 5,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 376,
+   "p": 48.4,
+   "c": 14.2,
+   "f": 14.1,
+   "fib": 4
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Corta la calabacita en tiras tipo espagueti con espiralizador o pelapapas.",
+    "Calienta el aceite y dora la pechuga cortada en cubos hasta que esté bien cocida.",
+    "Agrega los champiñones rebanados y saltéalos 3-4 minutos.",
+    "Incorpora la salsa de tomate cocida y deja hervir suave 2 minutos. Sazona con sal, ajo en polvo y pimienta.",
+    "Suma el espagueti de calabacita y saltea solo 2-3 minutos al dente.",
+    "Sirve y espolvorea el queso parmesano."
+   ],
+   "tip": "No cuezas de más la calabacita: con 2-3 minutos basta. Si suelta mucha agua, escúrrela antes de servir."
+  },
+  "ajustes": "376 kcal/48 g en el rango de Cena. Sin cebolla. Salsa de tomate cocida sin azúcar (jitomate nunca crudo). Picante muy moderado por gastritis. Sin pescado ni camarón."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Choco avena",
+  "ingredientes": [
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "60 g (1/2 taza colmada)",
+    "kcal": 228,
+    "p": 8.4,
+    "c": 40,
+    "f": 4,
+    "fib": 6
+   },
+   {
+    "nombre": "Chía",
+    "cantidad": "10 g (1 cda)",
+    "kcal": 49,
+    "p": 1.7,
+    "c": 4.2,
+    "f": 3.1,
+    "fib": 3.4
+   },
+   {
+    "nombre": "Leche de almendras (sin azúcar)",
+    "cantidad": "150 ml",
+    "kcal": 20,
+    "p": 0.6,
+    "c": 1.5,
+    "f": 1.7,
+    "fib": 0.3
+   },
+   {
+    "nombre": "Proteína en polvo sabor vainilla/chocolate (OPCIONAL)",
+    "cantidad": "1 scoop (30 g)",
+    "kcal": 113,
+    "p": 24,
+    "c": 2,
+    "f": 1.5,
+    "fib": 0.5
+   },
+   {
+    "nombre": "Cocoa sin azúcar",
+    "cantidad": "5 g (1 cda)",
+    "kcal": 11,
+    "p": 1,
+    "c": 2.7,
+    "f": 0.7,
+    "fib": 1.7
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "80 g (5-6 piezas)",
+    "kcal": 26,
+    "p": 0.5,
+    "c": 6.2,
+    "f": 0.2,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Miel",
+    "cantidad": "7 g (1 cdita)",
+    "kcal": 21,
+    "p": 0,
+    "c": 5.8,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 468,
+   "p": 36.2,
+   "c": 62.4,
+   "f": 11.2,
+   "fib": 13.5
+  },
+  "receta": {
+   "tiempo_min": 12,
+   "dificultad": "fácil",
+   "pasos": [
+    "Pon la avena, la chía y 1 taza de agua en una olla. Calienta a fuego medio.",
+    "Mueve hasta que el agua se absorba y la avena espese, 4-5 minutos.",
+    "Baja el fuego y agrega la leche de almendras, la cocoa y la proteína. Revuelve bien.",
+    "Sin proteína en polvo: agrega 3 claras poco a poco revolviendo sin parar, o usa 1/2 taza de yogur natural ya servido.",
+    "Sirve y coloca encima las fresas y la miel."
+   ],
+   "tip": "Para versión overnight, deja la avena con chía y leche de almendras en el refri toda la noche y al día siguiente agrega cocoa, proteína y toppings."
+  },
+  "ajustes": "468 kcal/36 g en el rango de desayuno. Proteína en polvo OPCIONAL (alternativa: 3 claras o 1/2 taza de yogur natural). Sin constraints aplicables; alta en fibra."
+ },
+ {
+  "slot": "Cena",
+  "titulo": "Verduras y pescado",
+  "ingredientes": [
+   {
+    "nombre": "Filete de salmón (a la plancha)",
+    "cantidad": "120 g",
+    "kcal": 250,
+    "p": 24,
+    "c": 0,
+    "f": 17,
+    "fib": 0
+   },
+   {
+    "nombre": "Ejotes (cocidos al vapor)",
+    "cantidad": "80 g",
+    "kcal": 25,
+    "p": 1.5,
+    "c": 5,
+    "f": 0,
+    "fib": 2.5
+   },
+   {
+    "nombre": "Calabacita italiana (salteada)",
+    "cantidad": "100 g",
+    "kcal": 17,
+    "p": 1.2,
+    "c": 3.1,
+    "f": 0.3,
+    "fib": 1
+   },
+   {
+    "nombre": "Jitomate cocido (asado con las verduras)",
+    "cantidad": "80 g",
+    "kcal": 15,
+    "p": 0.7,
+    "c": 3.1,
+    "f": 0.2,
+    "fib": 1
+   },
+   {
+    "nombre": "Aceite de oliva (para saltear)",
+    "cantidad": "5 ml",
+    "kcal": 40,
+    "p": 0,
+    "c": 0,
+    "f": 4.5,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa verde casera suave",
+    "cantidad": "40 g",
+    "kcal": 18,
+    "p": 0.7,
+    "c": 3,
+    "f": 0.3,
+    "fib": 1
+   },
+   {
+    "nombre": "Limón (jugo)",
+    "cantidad": "15 ml",
+    "kcal": 4,
+    "p": 0.1,
+    "c": 1.3,
+    "f": 0,
+    "fib": 0.1
+   }
+  ],
+  "totales": {
+   "kcal": 369,
+   "p": 28.2,
+   "c": 18.6,
+   "f": 22.3,
+   "fib": 5.6
+  },
+  "receta": {
+   "tiempo_min": 20,
+   "dificultad": "fácil",
+   "pasos": [
+    "Seca el salmón, sazona con sal, pimienta y limón.",
+    "Calienta un sartén con la mitad del aceite a fuego medio-alto. Sella el salmón 3-4 min por lado. Reserva.",
+    "En el mismo sartén saltea los ejotes y la calabacita 4-5 min al dente.",
+    "Agrega el jitomate en trozos y cocínalo 2-3 min más hasta que quede bien cocido (nunca crudo).",
+    "Sirve el salmón sobre las verduras, baña con la salsa verde suave y termina con limón."
+   ],
+   "tip": "Asa el jitomate junto con las verduras para que quede cocido. Para más saciedad, acompaña con 60 g de camote al horno."
+  },
+  "ajustes": "Cambié la tilapia por salmón (único permitido). Jitomate siempre COCIDO. Salsa verde casera suave + limón con picante moderado. 369 kcal en el rango de cena; omega-3 útil por triglicéridos. Sin cebolla ni camarón."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Crepas",
+  "ingredientes": [
+   {
+    "nombre": "Plátano",
+    "cantidad": "60 g (1/2 pieza)",
+    "kcal": 53,
+    "p": 0.6,
+    "c": 14,
+    "f": 0.2,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Avena",
+    "cantidad": "30 g (1/3 taza)",
+    "kcal": 113,
+    "p": 4,
+    "c": 20,
+    "f": 2,
+    "fib": 3
+   },
+   {
+    "nombre": "Leche de almendras sin azúcar",
+    "cantidad": "120 ml (1/2 taza)",
+    "kcal": 18,
+    "p": 0.6,
+    "c": 0.7,
+    "f": 1.5,
+    "fib": 0.4
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "99 g (3 claras)",
+    "kcal": 52,
+    "p": 11,
+    "c": 0.7,
+    "f": 0.2,
+    "fib": 0
+   },
+   {
+    "nombre": "Chía",
+    "cantidad": "6 g (1/2 cda)",
+    "kcal": 29,
+    "p": 1,
+    "c": 2.5,
+    "f": 1.8,
+    "fib": 2
+   },
+   {
+    "nombre": "Vainilla",
+    "cantidad": "3 ml (1/2 cdta)",
+    "kcal": 4,
+    "p": 0,
+    "c": 0.5,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Queso ricotta",
+    "cantidad": "80 g (1/3 taza)",
+    "kcal": 138,
+    "p": 9,
+    "c": 2.5,
+    "f": 10,
+    "fib": 0
+   },
+   {
+    "nombre": "Miel",
+    "cantidad": "10 g (1/2 cda)",
+    "kcal": 30,
+    "p": 0,
+    "c": 8,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Canela",
+    "cantidad": "1 g (1/4 cdta)",
+    "kcal": 2,
+    "p": 0,
+    "c": 0.5,
+    "f": 0,
+    "fib": 0.3
+   },
+   {
+    "nombre": "Mermelada sin azúcar",
+    "cantidad": "15 g (1 cda)",
+    "kcal": 18,
+    "p": 0,
+    "c": 4.5,
+    "f": 0,
+    "fib": 0.3
+   }
+  ],
+  "totales": {
+   "kcal": 457,
+   "p": 26.2,
+   "c": 53.9,
+   "f": 15.7,
+   "fib": 11.6
+  },
+  "receta": {
+   "tiempo_min": 15,
+   "dificultad": "fácil",
+   "pasos": [
+    "Licúa el plátano, la avena, la leche de almendras, las claras, la chía y la vainilla hasta una masa lisa. Deja reposar 5 min.",
+    "Calienta un sartén antiadherente a fuego medio. Vierte una porción delgada, gira el sartén para extenderla y cocina 1-2 min por lado. Salen 2-3 crepas.",
+    "Mezcla la ricotta con la miel, un chorrito de leche y la canela hasta una crema suave.",
+    "Rellena cada crepa con la ricotta, enrolla y encima pon la mermelada sin azúcar."
+   ],
+   "tip": "Para subir proteína sin polvo, suma 1 clara más o sirve con 2 cdas de yogur natural. Reposar la masa con la chía evita que se rompan."
+  },
+  "ajustes": "457 kcal/26 g en el rango de desayuno. Receta dulce sin constraints duras. Leche de almendras práctica; chía y avena para fibra (suave para colitis). Sin proteína en polvo ni yogur griego."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Avo toast con huevo estrellado",
+  "ingredientes": [
+   {
+    "nombre": "Pan integral (tipo Sara Lee), tostado",
+    "cantidad": "2 rebanadas (56 g)",
+    "kcal": 140,
+    "p": 8,
+    "c": 24,
+    "f": 2,
+    "fib": 4
+   },
+   {
+    "nombre": "Aguacate, untado",
+    "cantidad": "1/2 pieza (70 g)",
+    "kcal": 112,
+    "p": 1.4,
+    "c": 6,
+    "f": 10.3,
+    "fib": 4.7
+   },
+   {
+    "nombre": "Huevo entero, estrellado",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6.3,
+    "c": 0.4,
+    "f": 5,
+    "fib": 0
+   },
+   {
+    "nombre": "Claras de huevo",
+    "cantidad": "2 piezas (66 g)",
+    "kcal": 34,
+    "p": 7.2,
+    "c": 0.5,
+    "f": 0.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Salsa verde casera (cocida)",
+    "cantidad": "2 cucharadas (30 g)",
+    "kcal": 12,
+    "p": 0.5,
+    "c": 2.5,
+    "f": 0.1,
+    "fib": 0.6
+   },
+   {
+    "nombre": "Cilantro y pimienta",
+    "cantidad": "al gusto (3 g)",
+    "kcal": 1,
+    "p": 0.1,
+    "c": 0.2,
+    "f": 0,
+    "fib": 0.1
+   }
+  ],
+  "totales": {
+   "kcal": 371,
+   "p": 23.5,
+   "c": 33.6,
+   "f": 17.5,
+   "fib": 9.4
+  },
+  "receta": {
+   "tiempo_min": 12,
+   "dificultad": "fácil",
+   "pasos": [
+    "Tuesta las 2 rebanadas de pan hasta que queden doraditas.",
+    "Machaca el medio aguacate con sal y pimienta y úntalo sobre las tostadas.",
+    "Calienta un sartén con poco spray. Estrella el huevo entero y cuaja las 2 claras a un lado.",
+    "Acomoda el huevo y las claras sobre el avo toast.",
+    "Baña con la salsa verde cocida, espolvorea cilantro y pimienta. Sirve de inmediato."
+   ],
+   "tip": "Para más proteína sin grasa, cuaja una clara extra. Mantén el picante moderado: usa salsa verde suave y poca."
+  },
+  "ajustes": "Corregí la grasa total (sumaba 17.5 g, no 27.5). 371 kcal/23.5 g en el rango de desayuno. Salsa verde cocida sin cebolla; jitomate solo cocido; picante moderado. Sin pescado, camarón ni yogur griego."
+ },
+ {
+  "slot": "Snacks",
+  "titulo": "Chocolate caliente",
+  "ingredientes": [
+   {
+    "nombre": "Leche de almendras sin azúcar",
+    "cantidad": "180 ml",
+    "kcal": 24,
+    "p": 1,
+    "c": 1.4,
+    "f": 1.6,
+    "fib": 0.7
+   },
+   {
+    "nombre": "Leche de coco (de lata, light)",
+    "cantidad": "60 ml",
+    "kcal": 44,
+    "p": 0.5,
+    "c": 1.2,
+    "f": 4.3,
+    "fib": 0
+   },
+   {
+    "nombre": "Agua",
+    "cantidad": "60 ml",
+    "kcal": 0,
+    "p": 0,
+    "c": 0,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Cocoa en polvo sin azúcar",
+    "cantidad": "8 g (1 cda)",
+    "kcal": 18,
+    "p": 1.5,
+    "c": 4,
+    "f": 1,
+    "fib": 2.3
+   },
+   {
+    "nombre": "Azúcar mascabada",
+    "cantidad": "6 g (1 sobre)",
+    "kcal": 23,
+    "p": 0,
+    "c": 6,
+    "f": 0,
+    "fib": 0
+   },
+   {
+    "nombre": "Jengibre fresco rallado",
+    "cantidad": "2 g",
+    "kcal": 2,
+    "p": 0,
+    "c": 0.4,
+    "f": 0,
+    "fib": 0.1
+   },
+   {
+    "nombre": "Canela en polvo",
+    "cantidad": "1 g (1 pizca)",
+    "kcal": 3,
+    "p": 0.1,
+    "c": 0.8,
+    "f": 0,
+    "fib": 0.5
+   },
+   {
+    "nombre": "Claras de huevo (opcional, para subir proteína)",
+    "cantidad": "50 g (de bote pasteurizado)",
+    "kcal": 26,
+    "p": 5.5,
+    "c": 0.4,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 140,
+   "p": 8.6,
+   "c": 14.2,
+   "f": 6.9,
+   "fib": 3.6
+  },
+  "receta": {
+   "tiempo_min": 8,
+   "dificultad": "fácil",
+   "pasos": [
+    "Vierte la leche de almendras, la leche de coco y el agua en una olla chica. Calienta a fuego medio sin que hierva.",
+    "Agrega la cocoa, la canela y el jengibre rallado. Bate con globo para deshacer grumos.",
+    "Disuelve el sobre de mascabada y ajusta dulzor.",
+    "Opcional para más proteína: baja el fuego al mínimo y agrega las claras pasteurizadas batiendo rápido 1-2 min para que no se cuajen.",
+    "Sirve caliente y espolvorea canela."
+   ],
+   "tip": "Sin claras, sube la proteína con 1/2 scoop de proteína disuelta fuera del fuego. El jengibre y la canela son suaves para gastritis; sin chile."
+  },
+  "ajustes": "Corregí kcal totales (140, no 160; con claras opcionales). Snack ligero ~140 kcal; combínalo con su otro snack del día para llegar al bloque objetivo. Cuantifiqué todo en g/ml. Sin constraints aplicables; jengibre y canela suaves por gastritis."
+ },
+ {
+  "slot": "Desayuno",
+  "titulo": "Pancakes con camote",
+  "ingredientes": [
+   {
+    "nombre": "Puré de camote (cocido y aplastado)",
+    "cantidad": "80 g",
+    "kcal": 69,
+    "p": 1.3,
+    "c": 16,
+    "f": 0.1,
+    "fib": 2.4
+   },
+   {
+    "nombre": "Avena en hojuelas",
+    "cantidad": "35 g",
+    "kcal": 133,
+    "p": 4.6,
+    "c": 23.5,
+    "f": 2.4,
+    "fib": 3.5
+   },
+   {
+    "nombre": "Huevo entero",
+    "cantidad": "1 pieza (50 g)",
+    "kcal": 72,
+    "p": 6.3,
+    "c": 0.4,
+    "f": 4.8,
+    "fib": 0
+   },
+   {
+    "nombre": "Clara de huevo",
+    "cantidad": "2 piezas (66 g)",
+    "kcal": 34,
+    "p": 7.2,
+    "c": 0.5,
+    "f": 0.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Leche (entera)",
+    "cantidad": "60 ml",
+    "kcal": 37,
+    "p": 1.9,
+    "c": 2.9,
+    "f": 2,
+    "fib": 0
+   },
+   {
+    "nombre": "Yogur natural",
+    "cantidad": "60 g",
+    "kcal": 37,
+    "p": 3.6,
+    "c": 2.7,
+    "f": 1.1,
+    "fib": 0
+   },
+   {
+    "nombre": "Canela y extracto de vainilla",
+    "cantidad": "al gusto",
+    "kcal": 3,
+    "p": 0.1,
+    "c": 0.7,
+    "f": 0,
+    "fib": 0.2
+   },
+   {
+    "nombre": "Plátano",
+    "cantidad": "1/2 pieza (50 g)",
+    "kcal": 45,
+    "p": 0.5,
+    "c": 11.5,
+    "f": 0.2,
+    "fib": 1.3
+   },
+   {
+    "nombre": "Fresas",
+    "cantidad": "80 g",
+    "kcal": 26,
+    "p": 0.5,
+    "c": 6.2,
+    "f": 0.2,
+    "fib": 1.6
+   },
+   {
+    "nombre": "Miel de abeja",
+    "cantidad": "1 cucharada (15 g)",
+    "kcal": 46,
+    "p": 0,
+    "c": 12.4,
+    "f": 0,
+    "fib": 0
+   }
+  ],
+  "totales": {
+   "kcal": 502,
+   "p": 26,
+   "c": 76.8,
+   "f": 10.9,
+   "fib": 9
+  },
+  "receta": {
+   "tiempo_min": 20,
+   "dificultad": "fácil",
+   "pasos": [
+    "Hierve el camote pelado hasta que esté suave, aplástalo y mide 80 g de puré.",
+    "Licúa el puré, la avena, el huevo, las 2 claras, la leche, el yogur natural, la canela y la vainilla hasta una masa lisa.",
+    "Calienta un sartén antiadherente a fuego medio-bajo con un toque de spray.",
+    "Vierte porciones y cocina cada pancake 2-3 min por lado, hasta que salgan burbujas; voltea con cuidado.",
+    "Sirve y corona con el plátano, las fresas y la miel."
+   ],
+   "tip": "Para más proteína sin polvo, sube a 3 claras. Cocina a fuego bajo para que el camote no se pegue."
+  },
+  "ajustes": "502 kcal/26 g en el rango de desayuno. Cambié leche de almendras por entera y la 1/2 scoop de proteína por yogur natural + clara. Sin constraints aplicables."
+ }
+]

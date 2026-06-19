@@ -455,6 +455,10 @@ body.hide-done .row.is-done{display:none}
         if(!m||seen[m.titulo])return;
         seen[m.titulo]=1;list.push(m);
       });
+      (D.extras||[]).forEach(function(m){
+        if(m.slot!==s||seen[m.titulo])return;
+        seen[m.titulo]=1;list.push(m);
+      });
       CATALOG[s]=list;
     });
   }

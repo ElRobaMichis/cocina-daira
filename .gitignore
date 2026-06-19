@@ -9,3 +9,10 @@ Thumbs.db
 
 # Artefactos de la skill impeccable
 .impeccable/
+
+# Recetario fuente (con derechos de autor) y herramientas de build
+PLAN1300CAL.pdf
+_recetario.txt
+_gen_wf.py
+_wf_recetario.js
+_pdf_text.txt
